@@ -1,0 +1,647 @@
+{
+  "users": [
+    {
+      "id": 1758856158153,
+      "login": false,
+      "name": "anjad",
+      "email": "anjad076@gmail.com",
+      "password": "anjada",
+      "cart": [
+        {
+          "id": 6,
+          "isFav": false,
+          "quantity": 1,
+          "rating": 30,
+          "name": "Retro Court",
+          "color": 2,
+          "price": 2299
+        }
+      ],
+      "favorite": [
+        {
+          "id": 4,
+          "isFav": true,
+          "quantity": 1,
+          "rating": 20,
+          "name": "Metro Casuals",
+          "color": 6,
+          "price": 2599
+        }
+      ],
+      "address": {
+        "name": "ANJAD KT",
+        "number": 0,
+        "pincode": 679332,
+        "city": "Malappuram",
+        "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia",
+        "state": "Kerala",
+        "country": "India",
+        "method": "COD",
+        "total": 2200
+      },
+      "orders": [
+        {
+          "orderId": 1758860046325,
+          "date": "9/26/2025, 9:44:06 AM",
+          "status": "Order Placed",
+          "type": "COD",
+          "total": 14800,
+          "cart": [
+            {
+              "id": 1,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 50,
+              "name": "Atlas Runner",
+              "color": 4,
+              "price": 3299
+            },
+            {
+              "id": 2,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 10,
+              "name": "Harbor Slip-On",
+              "color": 3,
+              "price": 1999
+            },
+            {
+              "id": 3,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 15,
+              "name": "Canyon Trail Pro",
+              "color": 5,
+              "price": 5499
+            },
+            {
+              "id": 4,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 20,
+              "name": "Metro Casuals",
+              "color": 6,
+              "price": 2599
+            }
+          ],
+          "to": {
+            "name": "ANJAD KT",
+            "number": 9778175095,
+            "pincode": 679332,
+            "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia"
+          }
+        },
+        {
+          "orderId": 1758860550642,
+          "date": "9/26/2025, 9:52:30 AM",
+          "status": "Order Placed",
+          "type": "COD",
+          "total": 2200,
+          "cart": [
+            {
+              "id": 2,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 10,
+              "name": "Harbor Slip-On",
+              "color": 3,
+              "price": 1999
+            }
+          ],
+          "to": {
+            "name": "ANJAD KT",
+            "number": 0,
+            "pincode": 679332,
+            "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1758861954730,
+      "login": false,
+      "name": "jumana",
+      "email": "jumanafathimaep@gmail.com",
+      "password": "123456",
+      "cart": [],
+      "favorite": [
+        {
+          "id": 4,
+          "isFav": true,
+          "quantity": 1,
+          "rating": 20,
+          "name": "Metro Casuals",
+          "color": 6,
+          "price": 2599
+        },
+        {
+          "id": 24,
+          "isFav": true,
+          "quantity": 1,
+          "rating": 25,
+          "name": "GreenStride",
+          "color": 4,
+          "price": 2199
+        },
+        {
+          "id": 21,
+          "isFav": true,
+          "quantity": 1,
+          "rating": 50,
+          "name": "Peak Trekker",
+          "color": 6,
+          "price": 5999
+        }
+      ],
+      "address": {
+        "name": "jumana",
+        "number": 1234567890,
+        "pincode": 345678,
+        "city": "Kavanoor",
+        "adres": "Illikkal",
+        "state": "Kerala",
+        "country": "India",
+        "method": "UPI",
+        "total": 11900
+      },
+      "orders": [
+        {
+          "orderId": 1758862178245,
+          "date": "9/26/2025, 10:19:38 AM",
+          "status": "Order Placed",
+          "type": "UPI",
+          "total": 11900,
+          "cart": [
+            {
+              "id": 4,
+              "isFav": true,
+              "quantity": 4,
+              "rating": 20,
+              "name": "Metro Casuals",
+              "color": 6,
+              "price": 2599
+            },
+            {
+              "id": 24,
+              "isFav": true,
+              "quantity": 10,
+              "rating": 25,
+              "name": "GreenStride",
+              "color": 4,
+              "price": 2199
+            },
+            {
+              "id": 21,
+              "isFav": true,
+              "quantity": 10,
+              "rating": 50,
+              "name": "Peak Trekker",
+              "color": 6,
+              "price": 5999
+            }
+          ],
+          "to": {
+            "name": "jumana",
+            "number": 1234567890,
+            "pincode": 345678,
+            "adres": "Illikkal"
+          }
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 50,
+      "name": "Atlas Runner",
+      "color": 4,
+      "price": 3299
+    },
+    {
+      "id": 2,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 10,
+      "name": "Harbor Slip-On",
+      "color": 3,
+      "price": 1999
+    },
+    {
+      "id": 3,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 15,
+      "name": "Canyon Trail Pro",
+      "color": 5,
+      "price": 5499
+    },
+    {
+      "id": 4,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 20,
+      "name": "Metro Casuals",
+      "color": 6,
+      "price": 2599
+    },
+    {
+      "id": 5,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 25,
+      "name": "Nimbus Knit",
+      "color": 7,
+      "price": 3999
+    },
+    {
+      "id": 6,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 30,
+      "name": "Retro Court",
+      "color": 2,
+      "price": 2299
+    },
+    {
+      "id": 7,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 35,
+      "name": "Vertex High-Top",
+      "color": 4,
+      "price": 3499
+    },
+    {
+      "id": 8,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 40,
+      "name": "Glide Minimal",
+      "color": 3,
+      "price": 2799
+    },
+    {
+      "id": 9,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 45,
+      "name": "Summit Hiker",
+      "color": 6,
+      "price": 5999
+    },
+    {
+      "id": 10,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 30,
+      "name": "Luxe Loafer",
+      "color": 2,
+      "price": 4799
+    },
+    {
+      "id": 11,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 25,
+      "name": "Pulse Trainer",
+      "color": 5,
+      "price": 2999
+    },
+    {
+      "id": 12,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 50,
+      "name": "Eco Walker",
+      "color": 4,
+      "price": 2199
+    },
+    {
+      "id": 13,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 10,
+      "name": "Urban Flex",
+      "color": 4,
+      "price": 3299
+    },
+    {
+      "id": 14,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 15,
+      "name": "Ocean Glide",
+      "color": 3,
+      "price": 1999
+    },
+    {
+      "id": 15,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 20,
+      "name": "Trail Explorer",
+      "color": 5,
+      "price": 5499
+    },
+    {
+      "id": 16,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 25,
+      "name": "City Stroll",
+      "color": 6,
+      "price": 2599
+    },
+    {
+      "id": 17,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 30,
+      "name": "Aero Knit",
+      "color": 7,
+      "price": 3999
+    },
+    {
+      "id": 18,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 35,
+      "name": "Street Classic",
+      "color": 2,
+      "price": 2299
+    },
+    {
+      "id": 19,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 40,
+      "name": "Urban High-Top",
+      "color": 4,
+      "price": 3499
+    },
+    {
+      "id": 20,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 45,
+      "name": "Zen Minimal",
+      "color": 3,
+      "price": 2799
+    },
+    {
+      "id": 21,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 50,
+      "name": "Peak Trekker",
+      "color": 6,
+      "price": 5999
+    },
+    {
+      "id": 22,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 10,
+      "name": "Elite Loafer",
+      "color": 2,
+      "price": 4799
+    },
+    {
+      "id": 23,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 15,
+      "name": "Core Trainer",
+      "color": 5,
+      "price": 2999
+    },
+    {
+      "id": 24,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 25,
+      "name": "GreenStride",
+      "color": 4,
+      "price": 2199
+    },
+    {
+      "id": 25,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 30,
+      "name": "Nike Air Zoom",
+      "color": 5,
+      "price": 5499
+    },
+    {
+      "id": 26,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 20,
+      "name": "Adidas Ultraboost",
+      "color": 6,
+      "price": 7999
+    },
+    {
+      "id": 27,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 25,
+      "name": "Puma Velocity",
+      "color": 3,
+      "price": 4599
+    },
+    {
+      "id": 28,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 30,
+      "name": "Reebok Floatride",
+      "color": 4,
+      "price": 3899
+    },
+    {
+      "id": 29,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 20,
+      "name": "Skechers Go Walk",
+      "color": 7,
+      "price": 2999
+    },
+    {
+      "id": 30,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 25,
+      "name": "New Balance",
+      "color": 5,
+      "price": 6499
+    },
+    {
+      "id": 31,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 30,
+      "name": "Asics Gel",
+      "color": 6,
+      "price": 7199
+    },
+    {
+      "id": 32,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 20,
+      "name": "Under Armour",
+      "color": 3,
+      "price": 4299
+    },
+    {
+      "id": 33,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 25,
+      "name": "Fila Disruptor",
+      "color": 4,
+      "price": 3599
+    },
+    {
+      "id": 34,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 30,
+      "name": "Converse Chuck",
+      "color": 8,
+      "price": 3199
+    },
+    {
+      "id": 35,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 20,
+      "name": "Vans Old Skool",
+      "color": 6,
+      "price": 2799
+    },
+    {
+      "id": 36,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 25,
+      "name": "Woodland Trekker",
+      "color": 5,
+      "price": 4999
+    },
+    {
+      "id": 37,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 30,
+      "name": "Bata Power Run",
+      "color": 4,
+      "price": 2499
+    },
+    {
+      "id": 38,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 20,
+      "name": "HRX Sprint Pro",
+      "color": 3,
+      "price": 2899
+    },
+    {
+      "id": 39,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 25,
+      "name": "Red Tape Sports",
+      "color": 7,
+      "price": 3199
+    },
+    {
+      "id": 40,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 30,
+      "name": "Clarks Step",
+      "color": 5,
+      "price": 5599
+    },
+    {
+      "id": 41,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 20,
+      "name": "Crocs LiteRide",
+      "color": 6,
+      "price": 3499
+    },
+    {
+      "id": 42,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 25,
+      "name": "Hush Puppies Active",
+      "color": 4,
+      "price": 4799
+    },
+    {
+      "id": 43,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 30,
+      "name": "Sparx Street Flex",
+      "color": 8,
+      "price": 2399
+    },
+    {
+      "id": 44,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 20,
+      "name": "Lee Cooper Urban Walk",
+      "color": 6,
+      "price": 3299
+    },
+    {
+      "id": 45,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 25,
+      "name": "Lotto Speed Ride",
+      "color": 5,
+      "price": 2699
+    },
+    {
+      "id": 46,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 30,
+      "name": "Decathlon Kalenji",
+      "color": 7,
+      "price": 1999
+    },
+    {
+      "id": 47,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 20,
+      "name": "Campus Max Air",
+      "color": 4,
+      "price": 2599
+    },
+    {
+      "id": 48,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 25,
+      "name": "Action Campus Runner",
+      "color": 3,
+      "price": 1799
+    }
+  ]
+}
