@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import '../styles/login.css'
 import {Link,useNavigate} from 'react-router-dom'
-import { useError } from '../customHooks/customHooks'
+import { useError, useFetch } from '../customHooks/customHooks'
 import axios from 'axios';
 
 export function Register(){
@@ -143,7 +143,14 @@ export default function Login (){
   }, []);
 
   async function checkUser (e){
-    e.preventDefault()
+    e.preventDefault();
+    const [adminData] = useFetch('http://localhost:5000/Admin');
+    if(adminData.email === inputElem.current.email.value && adminData.password === inputElem.current.password.value ){
+      alert("admin login success");
+      navigate('/Dashboard');
+      return;
+    }
+    
     const obj = {}
     try{
       const res = await axios.get(`http://localhost:5000/users?email=${inputElem.current.email.value}`);
