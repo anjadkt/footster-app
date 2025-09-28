@@ -1,28 +1,22 @@
 {
-  "Admin" :[
+  "admin": [
     {
-      "email" : "admin@gmail.com",
+      "email": "admin@gmail.com",
       "password": "admin1234"
     }
   ],
   "users": [
+    {
+      "email": "admin@gmail.com",
+      "password": "admin1234"
+    },
     {
       "id": 1758856158153,
       "login": false,
       "name": "anjad",
       "email": "anjad076@gmail.com",
       "password": "anjada",
-      "cart": [
-        {
-          "id": 6,
-          "isFav": false,
-          "quantity": 1,
-          "rating": 30,
-          "name": "Retro Court",
-          "color": 2,
-          "price": 2299
-        }
-      ],
+      "cart": [],
       "favorite": [
         {
           "id": 4,
@@ -32,18 +26,27 @@
           "name": "Metro Casuals",
           "color": 6,
           "price": 2599
+        },
+        {
+          "id": 3,
+          "isFav": true,
+          "quantity": 1,
+          "rating": 15,
+          "name": "Canyon Trail Pro",
+          "color": 5,
+          "price": 5499
         }
       ],
       "address": {
         "name": "ANJAD KT",
-        "number": 0,
+        "number": 9778175095,
         "pincode": 679332,
         "city": "Malappuram",
         "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia",
         "state": "Kerala",
         "country": "India",
         "method": "COD",
-        "total": 2200
+        "total": 8900
       },
       "orders": [
         {
@@ -117,6 +120,63 @@
           "to": {
             "name": "ANJAD KT",
             "number": 0,
+            "pincode": 679332,
+            "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia"
+          }
+        },
+        {
+          "orderId": 1758879883718,
+          "date": "9/26/2025, 3:14:43 PM",
+          "status": "Order Placed",
+          "type": "COD",
+          "total": 2600,
+          "cart": [
+            {
+              "id": 6,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 30,
+              "name": "Retro Court",
+              "color": 2,
+              "price": 2299
+            }
+          ],
+          "to": {
+            "name": "ANJAD KT",
+            "number": 9778175095,
+            "pincode": 679332,
+            "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia"
+          }
+        },
+        {
+          "orderId": 1758880231215,
+          "date": "9/26/2025, 3:20:31 PM",
+          "status": "Order Placed",
+          "type": "COD",
+          "total": 8900,
+          "cart": [
+            {
+              "id": 3,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 15,
+              "name": "Canyon Trail Pro",
+              "color": 5,
+              "price": 5499
+            },
+            {
+              "id": 4,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 20,
+              "name": "Metro Casuals",
+              "color": 6,
+              "price": 2599
+            }
+          ],
+          "to": {
+            "name": "ANJAD KT",
+            "number": 9778175095,
             "pincode": 679332,
             "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia"
           }
