@@ -2,6 +2,7 @@ import './styles/App.css'
 import Login,{Register} from './pages/Login'
 import { Route,Routes } from 'react-router-dom'
 import ProtectedRoute from './auth/routeProtect'
+import PublicRoute from './auth/publicRoute'
 import Home from './pages/home'
 import Products from './pages/products'
 import Blogs from './pages/blogs'
@@ -20,16 +21,16 @@ function App() {
      <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path={'/signup'} element ={<Register/>}/>
-      <Route path={'/login'} element ={<ProtectedRoute role="admin"><Login/></ProtectedRoute>}/>
+      <Route path={'/login'} element ={<PublicRoute><Login/></PublicRoute>}/>
       <Route path={'/products'} element={<Products />} />
       <Route path={'/blogs'} element={<Blogs />} />
-      <Route path={'/cart'} element ={<Cart />} />
-      <Route path={'/wishlist'} element ={<Wishlist/>} />
-      <Route path={'/orderSummary'} element ={<OrderSummary/>} />
-      <Route path={'/confirm'} element={<OrderSec/>} />
-      <Route path={'/orders'} element ={<Orders/>} />
+      <Route path={'/cart'} element ={<ProtectedRoute><Cart/></ProtectedRoute>} />
+      <Route path={'/wishlist'} element ={<ProtectedRoute><Wishlist/></ProtectedRoute>} />
+      <Route path={'/orderSummary'} element ={<ProtectedRoute><OrderSummary/></ProtectedRoute>} />
+      <Route path={'/confirm'} element={<ProtectedRoute><OrderSec/></ProtectedRoute>} />
+      <Route path={'/orders'} element ={<ProtectedRoute><Orders/></ProtectedRoute>} />
       <Route path={'/forgot'} element = {<Forgot/>} />
-      <Route path={'/dashboard'}  element ={<Dashboard/>}/>
+      <Route path={'/dashboard'}  element ={<ProtectedRoute role="admin"><Dashboard/></ProtectedRoute>}/>
     </Routes>
     </>
   )

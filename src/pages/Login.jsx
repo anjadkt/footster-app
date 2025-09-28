@@ -43,6 +43,7 @@ export function Register(){
     }
     if(isError){
       axios.post('http://localhost:5000/users',{
+        role : "user",
         id : Date.now(),
         login : false,
         name,
@@ -148,6 +149,7 @@ export default function Login (){
     const adminData = admin.data[0];
     console.log(adminData)
       if(adminData.email === inputElem.current.email.value && adminData.password === inputElem.current.password.value ){
+        localStorage.setItem('user',JSON.stringify({...adminData,login : true,password : null , email:null}));
         alert("admin login success");
         navigate('/dashboard');
         return;
