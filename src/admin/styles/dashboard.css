@@ -1,0 +1,42 @@
+body{
+  padding: 0;
+}
+
+.dashboard-all-container,.admin-allproducts-container{
+  margin-left: 300px;
+  margin-top: 40px;
+}
+
+.dashboard-all-container h1,.admin-allproducts-container h1{
+  font-family: Lato,sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.dashboard-cus-or-pro-container{
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.dashboard-cus-or-pro-container>div{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  border: 1px solid black;
+  width: 200px;
+  align-items: center;
+  padding: 30px 0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(228, 228, 228);
+}
+
+.dashboard-cus-or-pro-container img{
+  height: 20px;
+  width: 25px;
+  padding: 10px ;
+  border-radius: 5px;
+  background-color: rgb(235, 235, 235);
+}

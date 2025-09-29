@@ -13,6 +13,8 @@ import OrderSec from './pages/success'
 import Orders from './pages/orders'
 import Forgot from './components/forget'
 import Dashboard from './admin/pages/dashboard'
+import AllProducts from './admin/pages/products'
+import Users from './admin/pages/users'
 
 function App() {
 
@@ -31,6 +33,8 @@ function App() {
       <Route path={'/orders'} element ={<ProtectedRoute><Orders/></ProtectedRoute>} />
       <Route path={'/forgot'} element = {<Forgot/>} />
       <Route path={'/dashboard'}  element ={<ProtectedRoute role="admin"><Dashboard/></ProtectedRoute>}/>
+      <Route path={'/allproducts'} element ={<ProtectedRoute role="admin"><AllProducts/></ProtectedRoute>} />
+      <Route path={'/users'} element ={<ProtectedRoute role="admin"><Users/></ProtectedRoute>} />
     </Routes>
     </>
   )

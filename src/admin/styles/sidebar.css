@@ -1,0 +1,59 @@
+
+.side-bar-container-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  position: fixed;
+  top: 0 ;
+  bottom: 0;
+  padding: 10px 30px;
+  box-shadow: 0px 0px 10px rgb(209, 208, 208);
+  padding-bottom: 30px;
+}
+
+.admin-panel-title>h1{
+  font-family: Lato , sans-serif;
+  font-weight: bold;
+  margin: 10px 0px;
+  font-size: 26px;
+  padding: 10px 0;
+  padding-right: 20px;
+}
+
+.menu{
+  font-size: 12px;
+  margin-left: -10px;
+}
+
+.admin-option-container{
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  font-family: Lato , sans-serif;
+}
+
+.admin-option-container>div,.logout-btn{
+  border: 1px solid rgb(126, 125, 125);
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: rgb(73, 73, 73);
+  transition: all 0.3s ease;
+
+  &:hover{
+    background-color: rgba(222, 221, 221, 0.326);
+    color: black;
+  }
+}
+
+.admin-option-container img{
+  height: 16px;
+}

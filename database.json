@@ -1,6 +1,12 @@
 {
   "admin": [
     {
+      "id": 0,
+      "name": "Admin",
+      "cart": [],
+      "favorite": [],
+      "orders": [],
+      "address": {},
       "role": "admin",
       "email": "admin@gmail.com",
       "password": "admin1234"
@@ -8,9 +14,15 @@
   ],
   "users": [
     {
+      "id": 0,
+      "cart": [],
+      "favorite": [],
+      "orders": [],
+      "address": {},
       "role": "admin",
       "email": "admin@gmail.com",
-      "password": "admin1234"
+      "password": "admin1234",
+      "login": false
     },
     {
       "role": "user",
@@ -22,13 +34,13 @@
       "cart": [],
       "favorite": [
         {
-          "id": 1,
+          "id": 7,
           "isFav": true,
           "quantity": 1,
-          "rating": 50,
-          "name": "Atlas Runner",
+          "rating": 35,
+          "name": "Vertex High-Top",
           "color": 4,
-          "price": 3299
+          "price": 3499
         },
         {
           "id": 2,
@@ -38,33 +50,6 @@
           "name": "Harbor Slip-On",
           "color": 3,
           "price": 1999
-        },
-        {
-          "id": 3,
-          "isFav": true,
-          "quantity": 1,
-          "rating": 15,
-          "name": "Canyon Trail Pro",
-          "color": 5,
-          "price": 5499
-        },
-        {
-          "id": 4,
-          "isFav": true,
-          "quantity": 1,
-          "rating": 20,
-          "name": "Metro Casuals",
-          "color": 6,
-          "price": 2599
-        },
-        {
-          "id": 7,
-          "isFav": true,
-          "quantity": 1,
-          "rating": 35,
-          "name": "Vertex High-Top",
-          "color": 4,
-          "price": 3499
         }
       ],
       "address": {
@@ -76,7 +61,7 @@
         "state": "Kerala",
         "country": "India",
         "method": "COD",
-        "total": 14800
+        "total": 27900
       },
       "orders": [
         {
@@ -128,6 +113,408 @@
             "number": 9778175095,
             "pincode": 679332,
             "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia"
+          }
+        },
+        {
+          "orderId": 1759124097911,
+          "date": "9/29/2025, 11:04:57 AM",
+          "status": "Order Placed",
+          "type": "COD",
+          "total": 27900,
+          "cart": [
+            {
+              "id": 10,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 30,
+              "name": "Luxe Loafer",
+              "color": 2,
+              "price": 4799
+            },
+            {
+              "id": 11,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 25,
+              "name": "Pulse Trainer",
+              "color": 5,
+              "price": 2999
+            },
+            {
+              "id": 12,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 50,
+              "name": "Eco Walker",
+              "color": 4,
+              "price": 2199
+            },
+            {
+              "id": 9,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 45,
+              "name": "Summit Hiker",
+              "color": 6,
+              "price": 5999
+            },
+            {
+              "id": 1,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 50,
+              "name": "Atlas Runner",
+              "color": 4,
+              "price": 3299
+            },
+            {
+              "id": 2,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 10,
+              "name": "Harbor Slip-On",
+              "color": 3,
+              "price": 1999
+            },
+            {
+              "id": 5,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 25,
+              "name": "Nimbus Knit",
+              "color": 7,
+              "price": 3999
+            }
+          ],
+          "to": {
+            "name": "ANJAD KT",
+            "number": 9778175095,
+            "pincode": 679332,
+            "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "id": 1759138517873,
+      "login": false,
+      "name": "jumana",
+      "email": "jumanafathimaep@gmail.com",
+      "password": "123456",
+      "cart": [],
+      "favorite": [
+        {
+          "id": 13,
+          "isFav": true,
+          "quantity": 1,
+          "rating": 10,
+          "name": "Urban Flex",
+          "color": 4,
+          "price": 3299
+        }
+      ],
+      "address": {
+        "name": "Jumana",
+        "number": 1212121212,
+        "pincode": 670000,
+        "city": "Kavanoor",
+        "adres": "Illikkal",
+        "state": "Kerala",
+        "country": "India",
+        "method": "COD",
+        "total": 8900
+      },
+      "orders": [
+        {
+          "orderId": 1759138655463,
+          "date": "9/29/2025, 3:07:35 PM",
+          "status": "Order Placed",
+          "type": "COD",
+          "total": 8900,
+          "cart": [
+            {
+              "id": 13,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 10,
+              "name": "Urban Flex",
+              "color": 4,
+              "price": 3299
+            },
+            {
+              "id": 22,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 10,
+              "name": "Elite Loafer",
+              "color": 2,
+              "price": 4799
+            }
+          ],
+          "to": {
+            "name": "Jumana",
+            "number": 1212121212,
+            "pincode": 670000,
+            "adres": "Illikkal"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "id": 1759138690642,
+      "login": false,
+      "name": "ansil",
+      "email": "ansil@gmail.com",
+      "password": "123456",
+      "cart": [],
+      "favorite": [
+        {
+          "id": 3,
+          "isFav": true,
+          "quantity": 1,
+          "rating": 15,
+          "name": "Canyon Trail Pro",
+          "color": 5,
+          "price": 5499
+        },
+        {
+          "id": 2,
+          "isFav": true,
+          "quantity": 1,
+          "rating": 10,
+          "name": "Harbor Slip-On",
+          "color": 3,
+          "price": 1999
+        }
+      ],
+      "address": {
+        "name": "ansil",
+        "number": 97777726262,
+        "pincode": 679332,
+        "city": "Malappuram",
+        "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia",
+        "state": "Kerala",
+        "country": "India",
+        "method": "COD",
+        "total": 11100
+      },
+      "orders": [
+        {
+          "orderId": 1759138734641,
+          "date": "9/29/2025, 3:08:54 PM",
+          "status": "Order Placed",
+          "type": "COD",
+          "total": 11100,
+          "cart": [
+            {
+              "id": 2,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 10,
+              "name": "Harbor Slip-On",
+              "color": 3,
+              "price": 1999
+            },
+            {
+              "id": 3,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 15,
+              "name": "Canyon Trail Pro",
+              "color": 5,
+              "price": 5499
+            },
+            {
+              "id": 4,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 20,
+              "name": "Metro Casuals",
+              "color": 6,
+              "price": 2599
+            }
+          ],
+          "to": {
+            "name": "ansil",
+            "number": 97777726262,
+            "pincode": 679332,
+            "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "id": 1759138779866,
+      "login": false,
+      "name": "adhersh",
+      "email": "adhershkr@gmail.com",
+      "password": "123456",
+      "cart": [
+        {
+          "id": 3,
+          "isFav": false,
+          "quantity": 1,
+          "rating": 15,
+          "name": "Canyon Trail Pro",
+          "color": 5,
+          "price": 5499
+        },
+        {
+          "id": 2,
+          "isFav": false,
+          "quantity": 1,
+          "rating": 10,
+          "name": "Harbor Slip-On",
+          "color": 3,
+          "price": 1999
+        }
+      ],
+      "favorite": [
+        {
+          "id": 2,
+          "isFav": true,
+          "quantity": 1,
+          "rating": 10,
+          "name": "Harbor Slip-On",
+          "color": 3,
+          "price": 1999
+        },
+        {
+          "id": 3,
+          "isFav": true,
+          "quantity": 1,
+          "rating": 15,
+          "name": "Canyon Trail Pro",
+          "color": 5,
+          "price": 5499
+        }
+      ],
+      "address": null,
+      "orders": []
+    },
+    {
+      "role": "user",
+      "id": 1759138833681,
+      "login": false,
+      "name": "jithin ",
+      "email": "jithin@gmail.com",
+      "password": "123456",
+      "cart": [
+        {
+          "id": 4,
+          "isFav": false,
+          "quantity": 1,
+          "rating": 20,
+          "name": "Metro Casuals",
+          "color": 6,
+          "price": 2599
+        },
+        {
+          "id": 3,
+          "isFav": false,
+          "quantity": 1,
+          "rating": 15,
+          "name": "Canyon Trail Pro",
+          "color": 5,
+          "price": 5499
+        },
+        {
+          "id": 2,
+          "isFav": false,
+          "quantity": 1,
+          "rating": 10,
+          "name": "Harbor Slip-On",
+          "color": 3,
+          "price": 1999
+        }
+      ],
+      "favorite": [
+        {
+          "id": 2,
+          "isFav": true,
+          "quantity": 1,
+          "rating": 10,
+          "name": "Harbor Slip-On",
+          "color": 3,
+          "price": 1999
+        }
+      ],
+      "address": null,
+      "orders": []
+    },
+    {
+      "role": "user",
+      "id": 1759138888085,
+      "login": false,
+      "name": "shiyas",
+      "email": "shiyas@gmail.com",
+      "password": "123456",
+      "cart": [],
+      "favorite": [],
+      "address": {
+        "name": "shiyas",
+        "number": 939393939,
+        "pincode": 679332,
+        "city": "Malappuram",
+        "adres": "kakkajakdjkajd",
+        "state": "Kerala",
+        "country": "India",
+        "method": "COD",
+        "total": 14700
+      },
+      "orders": [
+        {
+          "orderId": 1759138929543,
+          "date": "9/29/2025, 3:12:09 PM",
+          "status": "Order Placed",
+          "type": "COD",
+          "total": 14700,
+          "cart": [
+            {
+              "id": 2,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 10,
+              "name": "Harbor Slip-On",
+              "color": 3,
+              "price": 1999
+            },
+            {
+              "id": 3,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 15,
+              "name": "Canyon Trail Pro",
+              "color": 5,
+              "price": 5499
+            },
+            {
+              "id": 6,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 30,
+              "name": "Retro Court",
+              "color": 2,
+              "price": 2299
+            },
+            {
+              "id": 7,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 35,
+              "name": "Vertex High-Top",
+              "color": 4,
+              "price": 3499
+            }
+          ],
+          "to": {
+            "name": "shiyas",
+            "number": 939393939,
+            "pincode": 679332,
+            "adres": "kakkajakdjkajd"
           }
         }
       ]
