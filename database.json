@@ -615,8 +615,8 @@
       "quantity": 1,
       "rating": 50,
       "name": "Atlas Runner",
-      "color": 4,
-      "price": 3299
+      "color": "2",
+      "price": "3199"
     },
     {
       "id": 2,
@@ -1040,6 +1040,24 @@
       "name": "Action Campus Runner",
       "color": 3,
       "price": 1799
+    },
+    {
+      "id": 49,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 0,
+      "name": "nike sweeden",
+      "color": "2",
+      "price": "5999"
+    },
+    {
+      "id": 50,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 0,
+      "name": "nike lawo",
+      "color": "4",
+      "price": "9999"
     }
   ]
 }

@@ -21,7 +21,10 @@ export default function Users (){
     <>
      <SideBar/>
      <div className="users-admin-container-div">
-        <h1>Manage Users</h1>
+        <div className="header-admin-panel">
+          <h1>Manage Users</h1>
+          <input type="text" placeholder="Search Products"/>
+        </div>
         <hr />
         <div className="alluser-admin-container-div">
           {
