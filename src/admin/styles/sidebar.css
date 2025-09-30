@@ -1,59 +1,93 @@
-
-.side-bar-container-div{
+/* ===== Sidebar Container ===== */
+.side-bar-container-div {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 240px;
+  background: #f4f4f4; /* Dark slate */
+  color: #f9fafb;
+  padding: 20px 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: white;
-  position: fixed;
-  top: 0 ;
-  bottom: 0;
-  padding: 10px 30px;
-  box-shadow: 0px 0px 10px rgb(209, 208, 208);
-  padding-bottom: 30px;
+  padding: 10px ;
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.2);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 1000;
 }
 
-.admin-panel-title>h1{
-  font-family: Lato , sans-serif;
-  font-weight: bold;
-  margin: 10px 0px;
-  font-size: 26px;
-  padding: 10px 0;
-  padding-right: 20px;
+/* ===== Title ===== */
+.admin-panel-title {
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
-.menu{
-  font-size: 12px;
-  margin-left: -10px;
+.admin-panel-title h1 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1e1e1c; /* yellow accent */
+  letter-spacing: 1px;
 }
 
-.admin-option-container{
-  padding: 10px 0;
+/* ===== Menu Label ===== */
+.menu {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color:#1e1e1c ;
+  margin-bottom: 0.8rem;
+  padding-left: 0.5rem;
+}
+
+/* ===== Navigation Options ===== */
+.admin-option-container {
   display: flex;
   flex-direction: column;
-  gap: 18px;
-  font-family: Lato , sans-serif;
+  gap: 0.6rem;
 }
 
-.admin-option-container>div,.logout-btn{
-  border: 1px solid rgb(126, 125, 125);
-  padding: 6px 10px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 500;
-
+.admin-option-container div {
   display: flex;
   align-items: center;
-  gap: 10px;
-  color: rgb(73, 73, 73);
-  transition: all 0.3s ease;
-
-  &:hover{
-    background-color: rgba(222, 221, 221, 0.326);
-    color: black;
-  }
+  gap: 0.8rem;
+  border: 1px solid black;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  color: #1e1e1c;
+  transition: all 0.2s ease-in-out;
 }
 
-.admin-option-container img{
-  height: 16px;
+.admin-option-container div img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+/* Hover effect */
+.admin-option-container div:hover {
+  background: #1f2937; /* lighter dark */
+  color: #facc15; /* yellow highlight */
+  transform: translateX(4px);
+}
+
+/* ===== Logout Button ===== */
+.logout-btn {
+  margin-top: 2rem;
+  padding: 0.8rem;
+  text-align: center;
+  border-radius: 8px;
+  background: #dc2626; /* red */
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.logout-btn:hover {
+  background: #b91c1c;
+  transform: scale(1.05);
 }

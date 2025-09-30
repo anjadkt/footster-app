@@ -10,8 +10,11 @@ export default function AllProducts (){
 
   async function setData(){
     const {data} = await axios.get(' http://localhost:5000/products');
-    
     setProducts(data);
+  }
+
+  function addProduct(){
+    
   }
 
   useEffect(()=>{
@@ -25,9 +28,9 @@ export default function AllProducts (){
       <h1>Manage Products</h1>
       <hr />
      <div className="form-table-admin-div">
-        <form onSubmit={setData} className="admin-addproduct-form">
+        <form onSubmit={addProduct} className="admin-addproduct-form">
         <input required type="text" placeholder="Products Name" />
-        <input required type="text" placeholder="Colors" />
+        <input required type="number" placeholder="Colors" />
         <input required type="number" placeholder="Price" />
         <input type="submit" value='Add Product' />
       </form>
@@ -35,7 +38,7 @@ export default function AllProducts (){
       <table>
         <thead>
           <tr>
-            <th>Id</th>
+            <th>ID</th>
             <th>Name</th>
             <th>Colors</th>
             <th>Price</th>
@@ -51,7 +54,7 @@ export default function AllProducts (){
                 <td>{v.color}</td>
                 <td>{v.price}</td>
                 <td>
-                  <button>Remove</button>
+                  <button >Remove</button>
                   <button>Edit</button>
                 </td>
               </tr>

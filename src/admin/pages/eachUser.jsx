@@ -1,0 +1,70 @@
+import axios from "axios";
+import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom"
+import SideBar from "../components/sidebar";
+import '../styles/eachuser.css'
+
+export default function EachUser(){
+  const [user,setUser] = useState({});
+  const {id} = useParams();
+  async function fetchUser() {
+    const {data} = await axios.get(`http://localhost:5000/users/${id}`);
+    console.log(data);
+    setUser(data);
+  }
+
+  useEffect(()=>{
+    fetchUser();
+  },[])
+  return (
+    <>
+     <SideBar/>
+     <div className="all-user-info-container-div">
+      <div className="user-info-container-div">
+        <h1>{user.name}</h1>
+        <p>ID : {user.id}</p>
+        <p> Email - {user.email}</p>
+        <p>status - <span className="user-status">{user.status}</span></p>
+        <br />
+        <button className="block-user">Block User</button>
+      </div>
+      <div className="user-orders-container-div">
+        {
+          user.orders && user.orders.map((v,i)=>(
+            <div key={i} className="user-admin-orders">
+              <div className="user-admin-orders-details">
+                <div>order ID :<br/>{v.orderId}</div>
+                <div>Date : <br/>{v.date}</div>
+                <div>Total Price : <br/>{v.total}</div>
+                <div>Type : <br/>{v.type}</div>
+                <div>Status : <br/>{v.status}</div>
+              </div>
+              <div className="user-admin-orders">
+                {
+                  v.cart.map((d,i)=>(
+                    <div key={i} className="product-admin-order-details">
+                      <div className="img-div"><img  src={`/products/shoe-${d.id}.png`} alt="name" /></div>
+                      <div className="admin-products">
+                        <div>{d.name}</div>
+                        <div>Price : {d.price}</div>
+                        <div>Quantity :{d.quantity}</div>
+                        <div>Colros : {d.color}</div>
+                      </div>
+                    </div>
+                  ))
+                }
+              </div>
+              <div className="user-admin-shpping-details">
+                <div>Placed</div>
+                <div>Shipped</div>
+                <div>Reached</div>
+                <div>Delivered</div>
+              </div>
+            </div>
+          ))
+        }
+      </div>
+     </div>
+    </>
+  )
+}

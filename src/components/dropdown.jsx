@@ -51,7 +51,7 @@ export function UserDrop(){
   async function postJson(){
     const userObj = JSON.parse(localStorage.getItem('user'));
     const {data}  = await axios.get(` http://localhost:5000/users?id=${userObj.id}`);
-    const updateUser = {...userObj,email : data[0].email,password : data[0].password,login : false}
+    const updateUser = {...userObj,email : data[0].email,password : data[0].password,login : false,status:'inactive'}
     axios.put(`http://localhost:5000/users/${userObj.id}`,updateUser);
     localStorage.clear();
   }

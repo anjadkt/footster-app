@@ -27,6 +27,7 @@
     {
       "role": "user",
       "id": 1759042029425,
+      "status": "inactive",
       "login": false,
       "name": "anjad",
       "email": "anjad076@gmail.com",
@@ -198,6 +199,7 @@
     {
       "role": "user",
       "id": 1759138517873,
+      "status": "inactive",
       "login": false,
       "name": "jumana",
       "email": "jumanafathimaep@gmail.com",
@@ -264,6 +266,7 @@
     {
       "role": "user",
       "id": 1759138690642,
+      "status": "inactive",
       "login": false,
       "name": "ansil",
       "email": "ansil@gmail.com",
@@ -348,6 +351,7 @@
     {
       "role": "user",
       "id": 1759138779866,
+      "status": "inactive",
       "login": false,
       "name": "adhersh",
       "email": "adhershkr@gmail.com",
@@ -398,6 +402,7 @@
     {
       "role": "user",
       "id": 1759138833681,
+      "status": "inactive",
       "login": false,
       "name": "jithin ",
       "email": "jithin@gmail.com",
@@ -448,6 +453,7 @@
     {
       "role": "user",
       "id": 1759138888085,
+      "status": "inactive",
       "login": false,
       "name": "shiyas",
       "email": "shiyas@gmail.com",
@@ -515,6 +521,88 @@
             "number": 939393939,
             "pincode": 679332,
             "adres": "kakkajakdjkajd"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "id": 1759214467332,
+      "login": false,
+      "name": "kevin",
+      "email": "kevinff691@gmail.com",
+      "status": "inactive",
+      "password": "123456",
+      "cart": [],
+      "favorite": [
+        {
+          "id": 7,
+          "isFav": true,
+          "quantity": 1,
+          "rating": 35,
+          "name": "Vertex High-Top",
+          "color": 4,
+          "price": 3499
+        }
+      ],
+      "address": {
+        "name": "kevin",
+        "number": 909282292,
+        "pincode": 60001,
+        "city": "chennai",
+        "adres": "chennai,str",
+        "state": "thamilnadu",
+        "country": "india",
+        "method": "COD",
+        "total": 2200
+      },
+      "orders": [
+        {
+          "orderId": 1759214553803,
+          "date": "9/30/2025, 12:12:33 PM",
+          "status": "Order Placed",
+          "type": "COD",
+          "total": 3900,
+          "cart": [
+            {
+              "id": 7,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 35,
+              "name": "Vertex High-Top",
+              "color": 4,
+              "price": 3499
+            }
+          ],
+          "to": {
+            "name": "kevin",
+            "number": 909282292,
+            "pincode": 60001,
+            "adres": "chennai,str"
+          }
+        },
+        {
+          "orderId": 1759214720327,
+          "date": "9/30/2025, 12:15:20 PM",
+          "status": "Order Placed",
+          "type": "COD",
+          "total": 2200,
+          "cart": [
+            {
+              "id": 2,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 10,
+              "name": "Harbor Slip-On",
+              "color": 3,
+              "price": 1999
+            }
+          ],
+          "to": {
+            "name": "kevin",
+            "number": 909282292,
+            "pincode": 60001,
+            "adres": "chennai,str"
           }
         }
       ]

@@ -15,6 +15,8 @@ import Forgot from './components/forget'
 import Dashboard from './admin/pages/dashboard'
 import AllProducts from './admin/pages/products'
 import Users from './admin/pages/users'
+import EachUser from './admin/pages/eachUser'
+import AdminOrders from './admin/pages/orders'
 
 function App() {
 
@@ -35,7 +37,10 @@ function App() {
       <Route path={'/dashboard'}  element ={<ProtectedRoute role="admin"><Dashboard/></ProtectedRoute>}/>
       <Route path={'/allproducts'} element ={<ProtectedRoute role="admin"><AllProducts/></ProtectedRoute>} />
       <Route path={'/users'} element ={<ProtectedRoute role="admin"><Users/></ProtectedRoute>} />
+      <Route path={'/users/:id'} element ={<ProtectedRoute role="admin"><EachUser/></ProtectedRoute>} />
+      <Route path={'/adminOrders'} element ={<ProtectedRoute role="admin"><AdminOrders/></ProtectedRoute>} />
     </Routes>
+    
     </>
   )
 }

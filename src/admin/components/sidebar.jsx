@@ -14,24 +14,20 @@ export default function SideBar (){
           MENU
         </div>
         <div className='admin-option-container'>
-          <div>
-            <img src="./icons/profile.png" alt="admin profile" />
-            Admin Profile
-          </div>
           <div onClick={()=>navigate('/dashboard')}>
-            <img src="./icons/dashboard.png" alt="" />
+            <img src="/icons/dashboard.png" alt="" />
             Dashboard
           </div>
           <div onClick={()=>navigate('/allProducts')}>
-            <img src="./icons/products.png" alt="" />
+            <img src="/icons/products.png" alt="" />
             Products 
           </div>
           <div onClick={()=>navigate('/users')}>
-            <img src="./icons/users.png" alt="" />
+            <img src="/icons/users.png" alt="" />
             Users 
           </div>
-          <div>
-            <img src="./icons/orders.png" alt="" />
+          <div onClick={()=>navigate('/adminOrders')}>
+            <img src="/icons/orders.png" alt="" />
             Orders
           </div>
         </div>

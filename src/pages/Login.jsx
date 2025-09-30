@@ -48,6 +48,7 @@ export function Register(){
         login : false,
         name,
         email,
+        status : 'inactive',
         password,
         cart :[],
         favorite:[],
@@ -169,7 +170,7 @@ export default function Login (){
       setErr(obj);
 
       if(Object.keys(obj)?.length === 0){
-        localStorage.setItem('user',JSON.stringify({...data,login : true,password : null , email:null}));
+        localStorage.setItem('user',JSON.stringify({...data,status:'active',login : true,password : null , email:null}));
         navigate('/');
       }
     }catch(err){

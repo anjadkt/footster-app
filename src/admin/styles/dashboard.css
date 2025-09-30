@@ -1,42 +1,76 @@
-body{
-  padding: 0;
+/* ========== MAIN CONTAINER ========== */
+.dashboard-all-container {
+  margin-left: 260px; /* leave space for sidebar */
+  padding: 2rem;
+  min-height: 100vh;
+  background: #f9fafb;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #111827;
 }
 
-.dashboard-all-container,.admin-allproducts-container{
-  margin-left: 300px;
-  margin-top: 40px;
+/* ========== HEADER ========== */
+.dashboard-all-container h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
 }
 
-.dashboard-all-container h1,.admin-allproducts-container h1{
-  font-family: Lato,sans-serif;
-  font-weight: 600;
-  font-size: 26px;
-  margin-bottom: 10px;
+.dashboard-all-container hr {
+  border: none;
+  height: 2px;
+  background: #e5e7eb;
+  margin-bottom: 2rem;
 }
 
-.dashboard-cus-or-pro-container{
-  padding-top: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.dashboard-cus-or-pro-container>div{
+/* ========== DASHBOARD DETAILS ========== */
+.dashboard-details-container {
   display: flex;
   flex-direction: column;
-  gap: 14px;
-  border: 1px solid black;
-  width: 200px;
-  align-items: center;
-  padding: 30px 0;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgb(228, 228, 228);
+  gap: 2rem;
 }
 
-.dashboard-cus-or-pro-container img{
-  height: 20px;
-  width: 25px;
-  padding: 10px ;
-  border-radius: 5px;
-  background-color: rgb(235, 235, 235);
+/* ========== STATS CARDS CONTAINER ========== */
+.dashboard-cus-or-pro-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+/* ========== INDIVIDUAL CARD ========== */
+.dashboard-cus-or-pro-container > div {
+  background: #fff;
+  border-radius: 14px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.dashboard-cus-or-pro-container > div:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+/* Icon inside card */
+.dashboard-cus-or-pro-container img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 0.8rem;
+  filter: brightness(0) invert(0.5);
+}
+
+/* Card label */
+.dashboard-cus-or-pro-container div div {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #6b7280;
+  margin-bottom: 0.4rem;
+}
+
+/* Card numbers */
+.dashboard-cus-or-pro-container h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #111827;
 }
