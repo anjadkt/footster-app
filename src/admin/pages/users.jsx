@@ -14,6 +14,12 @@ export default function Users (){
     setUsers(data);
   }
 
+  function searchUser(s){
+    const search = s.toLowerCase();
+    const searched = users.filter((v)=> v.name.toLowerCase().includes(search));
+    setUsers(searched);
+  }
+
   useEffect(()=>{
     fetchData();
   },[])
@@ -23,7 +29,7 @@ export default function Users (){
      <div className="users-admin-container-div">
         <div className="header-admin-panel">
           <h1>Manage Users</h1>
-          <input type="text" placeholder="Search Products"/>
+          <input onChange={e => searchUser(e.target.value)} type="text" placeholder="Search Users"/>
         </div>
         <hr />
         <div className="alluser-admin-container-div">
@@ -34,7 +40,7 @@ export default function Users (){
                 <p>Role : {v.role}</p>
                 <h3>{v.name}</h3> 
                 <p>{v.email}</p>
-                <p>status : <span>{v.status}</span></p>
+                <p>status : <span style={{backgroundColor : v.status == "active"? "#78eda5ff":"red"}}>{v.status}</span></p>
               </div>
             ))
           }

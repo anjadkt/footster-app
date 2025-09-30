@@ -27,7 +27,7 @@
     {
       "role": "user",
       "id": 1759042029425,
-      "status": "inactive",
+      "status": "active",
       "login": false,
       "name": "anjad",
       "email": "anjad076@gmail.com",
@@ -199,7 +199,7 @@
     {
       "role": "user",
       "id": 1759138517873,
-      "status": "inactive",
+      "status": "active",
       "login": false,
       "name": "jumana",
       "email": "jumanafathimaep@gmail.com",
@@ -266,7 +266,7 @@
     {
       "role": "user",
       "id": 1759138690642,
-      "status": "inactive",
+      "status": "active",
       "login": false,
       "name": "ansil",
       "email": "ansil@gmail.com",
@@ -351,7 +351,7 @@
     {
       "role": "user",
       "id": 1759138779866,
-      "status": "inactive",
+      "status": "active",
       "login": false,
       "name": "adhersh",
       "email": "adhershkr@gmail.com",
@@ -402,7 +402,7 @@
     {
       "role": "user",
       "id": 1759138833681,
-      "status": "inactive",
+      "status": "active",
       "login": false,
       "name": "jithin ",
       "email": "jithin@gmail.com",
@@ -453,7 +453,7 @@
     {
       "role": "user",
       "id": 1759138888085,
-      "status": "inactive",
+      "status": "active",
       "login": false,
       "name": "shiyas",
       "email": "shiyas@gmail.com",
@@ -531,7 +531,7 @@
       "login": false,
       "name": "kevin",
       "email": "kevinff691@gmail.com",
-      "status": "inactive",
+      "status": "active",
       "password": "123456",
       "cart": [],
       "favorite": [

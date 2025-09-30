@@ -24,7 +24,7 @@ export default function EachUser(){
         <h1>{user.name}</h1>
         <p>ID : {user.id}</p>
         <p> Email - {user.email}</p>
-        <p>status - <span className="user-status">{user.status}</span></p>
+        <p>status - <span className="user-status" style={{backgroundColor : user.status == "active"? "#78eda5ff":"red"}}>{user.status}</span></p>
         <br />
         <button className="block-user">Block User</button>
       </div>
