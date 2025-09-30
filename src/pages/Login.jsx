@@ -148,7 +148,7 @@ export default function Login (){
     e.preventDefault();
     const admin = await axios.get('http://localhost:5000/admin');
     const adminData = admin.data[0];
-    console.log(adminData)
+
       if(adminData.email === inputElem.current.email.value && adminData.password === inputElem.current.password.value ){
         localStorage.setItem('user',JSON.stringify({...adminData,login : true,password : null , email:null}));
         alert("admin login success");
@@ -160,6 +160,11 @@ export default function Login (){
     try{
       const res = await axios.get(`http://localhost:5000/users?email=${inputElem.current.email.value}`);
       const data = res.data[0] || [] ;
+
+      if(data.status == "blocked"){
+        alert("Account Blocked");
+        return;
+      }
       if(data.length === 0){
         obj.email = "User not found"
       }
@@ -170,7 +175,7 @@ export default function Login (){
       setErr(obj);
 
       if(Object.keys(obj)?.length === 0){
-        localStorage.setItem('user',JSON.stringify({...data,status:'active',login : true,password : null , email:null}));
+        localStorage.setItem('user',JSON.stringify({...data,login : true,password : null , email:null}));
         navigate('/');
       }
     }catch(err){

@@ -9,8 +9,15 @@ export default function EachUser(){
   const {id} = useParams();
   async function fetchUser() {
     const {data} = await axios.get(`http://localhost:5000/users/${id}`);
-    console.log(data);
     setUser(data);
+  }
+
+  function blockUser(){
+    axios.put(`http://localhost:5000/users/${id}`,{
+      ...user,
+      status : user.status == "active"? "blocked" : "active"
+    });
+    fetchUser();
   }
 
   useEffect(()=>{
@@ -24,9 +31,9 @@ export default function EachUser(){
         <h1>{user.name}</h1>
         <p>ID : {user.id}</p>
         <p> Email - {user.email}</p>
-        <p>status - <span className="user-status" style={{backgroundColor : user.status == "active"? "#78eda5ff":"red"}}>{user.status}</span></p>
+        <p>status - <span className="user-status" style={{backgroundColor : user.status == "active" ? "#78eda5ff":"red"}}>{user.status}</span></p>
         <br />
-        <button className="block-user">Block User</button>
+        <button onClick={blockUser} className="block-user">{user.status == "active" ? "Block User": "Unblock User"}</button>
       </div>
       <div className="user-orders-container-div">
         {
