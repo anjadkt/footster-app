@@ -54,6 +54,7 @@ export function UserDrop(){
     const updateUser = {...userObj,email : data[0].email,password : data[0].password,login : false}
     axios.put(`http://localhost:5000/users/${userObj.id}`,updateUser);
     localStorage.clear();
+    navigate('/');
   }
   return(
     <>

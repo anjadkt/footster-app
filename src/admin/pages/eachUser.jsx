@@ -9,6 +9,7 @@ export default function EachUser(){
   const {id} = useParams();
   async function fetchUser() {
     const {data} = await axios.get(`http://localhost:5000/users/${id}`);
+    console.log(data)
     setUser(data);
   }
 
@@ -18,6 +19,17 @@ export default function EachUser(){
       status : user.status == "active"? "blocked" : "active"
     });
     fetchUser();
+  }
+
+  function setOrder(orderStatus){
+    // axios.put(`http://localhost:5000/users/${id}`,{
+    //   ...user,
+    //   orders : {
+    //     ...user.orders,
+    //     status : orderStatus
+    //   }
+    // });
+    // fetchUser();
   }
 
   useEffect(()=>{
@@ -37,7 +49,7 @@ export default function EachUser(){
       </div>
       <div className="user-orders-container-div">
         {
-          user.orders && user.orders.map((v,i)=>(
+          user && user.orders && user.orders.map((v,i)=>(
             <div key={i} className="user-admin-orders">
               <div className="user-admin-orders-details">
                 <div>order ID :<br/>{v.orderId}</div>
@@ -62,10 +74,10 @@ export default function EachUser(){
                 }
               </div>
               <div className="user-admin-shpping-details">
-                <div>Placed</div>
-                <div>Shipped</div>
-                <div>Reached</div>
-                <div>Delivered</div>
+                <div style={{backgroundColor : v.status == "Placed" ? "green":"none"}}>Placed</div>
+                <div onClick={()=>setOrder("Shipped")}>Shipped</div>
+                <div onClick={()=>setOrder("Reached")}>Reached</div>
+                <div onClick={()=>setOrder("Delivered")}>Delivered</div>
               </div>
             </div>
           ))

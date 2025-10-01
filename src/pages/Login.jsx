@@ -48,7 +48,7 @@ export function Register(){
         login : false,
         name,
         email,
-        status : 'inactive',
+        status : 'active',
         password,
         cart :[],
         favorite:[],

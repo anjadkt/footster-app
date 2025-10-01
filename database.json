@@ -26,178 +26,6 @@
     },
     {
       "role": "user",
-      "id": 1759042029425,
-      "status": "active",
-      "login": false,
-      "name": "anjad",
-      "email": "anjad076@gmail.com",
-      "password": "123456",
-      "cart": [],
-      "favorite": [
-        {
-          "id": 7,
-          "isFav": true,
-          "quantity": 1,
-          "rating": 35,
-          "name": "Vertex High-Top",
-          "color": 4,
-          "price": 3499
-        },
-        {
-          "id": 2,
-          "isFav": true,
-          "quantity": 1,
-          "rating": 10,
-          "name": "Harbor Slip-On",
-          "color": 3,
-          "price": 1999
-        }
-      ],
-      "address": {
-        "name": "ANJAD KT",
-        "number": 9778175095,
-        "pincode": 679332,
-        "city": "Malappuram",
-        "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia",
-        "state": "Kerala",
-        "country": "India",
-        "method": "COD",
-        "total": 27900
-      },
-      "orders": [
-        {
-          "orderId": 1759042113826,
-          "date": "9/28/2025, 12:18:33 PM",
-          "status": "Placed",
-          "type": "COD",
-          "total": 14800,
-          "cart": [
-            {
-              "id": 1,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 50,
-              "name": "Atlas Runner",
-              "color": 4,
-              "price": 3299
-            },
-            {
-              "id": 2,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 10,
-              "name": "Harbor Slip-On",
-              "color": 3,
-              "price": 1999
-            },
-            {
-              "id": 3,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 15,
-              "name": "Canyon Trail Pro",
-              "color": 5,
-              "price": 5499
-            },
-            {
-              "id": 4,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 20,
-              "name": "Metro Casuals",
-              "color": 6,
-              "price": 2599
-            }
-          ],
-          "to": {
-            "name": "ANJAD KT",
-            "number": 9778175095,
-            "pincode": 679332,
-            "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia"
-          }
-        },
-        {
-          "orderId": 1759124097911,
-          "date": "9/29/2025, 11:04:57 AM",
-          "status": "Placed",
-          "type": "COD",
-          "total": 27900,
-          "cart": [
-            {
-              "id": 10,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 30,
-              "name": "Luxe Loafer",
-              "color": 2,
-              "price": 4799
-            },
-            {
-              "id": 11,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 25,
-              "name": "Pulse Trainer",
-              "color": 5,
-              "price": 2999
-            },
-            {
-              "id": 12,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 50,
-              "name": "Eco Walker",
-              "color": 4,
-              "price": 2199
-            },
-            {
-              "id": 9,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 45,
-              "name": "Summit Hiker",
-              "color": 6,
-              "price": 5999
-            },
-            {
-              "id": 1,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 50,
-              "name": "Atlas Runner",
-              "color": 4,
-              "price": 3299
-            },
-            {
-              "id": 2,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 10,
-              "name": "Harbor Slip-On",
-              "color": 3,
-              "price": 1999
-            },
-            {
-              "id": 5,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 25,
-              "name": "Nimbus Knit",
-              "color": 7,
-              "price": 3999
-            }
-          ],
-          "to": {
-            "name": "ANJAD KT",
-            "number": 9778175095,
-            "pincode": 679332,
-            "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia"
-          }
-        }
-      ]
-    },
-    {
-      "role": "user",
       "id": 1759138517873,
       "status": "active",
       "login": false,
@@ -603,6 +431,82 @@
             "number": 909282292,
             "pincode": 60001,
             "adres": "chennai,str"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "id": 1759294340758,
+      "login": false,
+      "name": "anjad",
+      "email": "anjad076@gmail.com",
+      "status": "active",
+      "password": "123456",
+      "cart": [],
+      "favorite": [
+        {
+          "id": 19,
+          "isFav": true,
+          "quantity": 1,
+          "rating": 40,
+          "name": "Urban High-Top",
+          "color": 4,
+          "price": 3499
+        },
+        {
+          "id": 20,
+          "isFav": true,
+          "quantity": 1,
+          "rating": 45,
+          "name": "Zen Minimal",
+          "color": 3,
+          "price": 2799
+        }
+      ],
+      "address": {
+        "name": "ANJAD KT",
+        "number": 9778175092,
+        "pincode": 679332,
+        "city": "Malappuram",
+        "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia",
+        "state": "Kerala",
+        "country": "India",
+        "method": "COD",
+        "total": 7000
+      },
+      "orders": [
+        {
+          "orderId": 1759294390357,
+          "date": "10/1/2025, 10:23:10 AM",
+          "status": "Placed",
+          "type": "COD",
+          "total": 7000,
+          "cart": [
+            {
+              "id": 19,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 40,
+              "name": "Urban High-Top",
+              "color": 4,
+              "price": 3499
+            },
+            {
+              "id": 20,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 45,
+              "name": "Zen Minimal",
+              "color": 3,
+              "price": 2799
+            }
+          ],
+          "to": {
+            "name": "ANJAD KT",
+            "number": 9778175092,
+            "pincode": 679332,
+            "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia"
           }
         }
       ]
