@@ -59,7 +59,7 @@
         {
           "orderId": 1759138655463,
           "date": "9/29/2025, 3:07:35 PM",
-          "status": "Delivered",
+          "status": "Shipped",
           "type": "COD",
           "total": 8900,
           "cart": [
@@ -135,7 +135,7 @@
         {
           "orderId": 1759138734641,
           "date": "9/29/2025, 3:08:54 PM",
-          "status": "Placed",
+          "status": "Shipped",
           "type": "COD",
           "total": 11100,
           "cart": [
@@ -303,7 +303,7 @@
         {
           "orderId": 1759138929543,
           "date": "9/29/2025, 3:12:09 PM",
-          "status": "Placed",
+          "status": "Shipped",
           "type": "COD",
           "total": 14700,
           "cart": [
@@ -529,6 +529,82 @@
           "to": {
             "name": "ANJAD KT",
             "number": 9778175092,
+            "pincode": 679332,
+            "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "id": 1759323582555,
+      "login": false,
+      "name": "najmunnisa",
+      "email": "najmunnisa@gmail.com",
+      "status": "active",
+      "password": "123456",
+      "cart": [],
+      "favorite": [
+        {
+          "id": 7,
+          "isFav": true,
+          "quantity": 1,
+          "rating": 35,
+          "name": "Vertex High-Top",
+          "color": 4,
+          "price": 3499
+        },
+        {
+          "id": 10,
+          "isFav": true,
+          "quantity": 1,
+          "rating": 30,
+          "name": "Luxe Loafer",
+          "color": 2,
+          "price": 4799
+        }
+      ],
+      "address": {
+        "name": "najmunnisa",
+        "number": 9605656530,
+        "pincode": 679332,
+        "city": "Malappuram",
+        "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia",
+        "state": "Kerala",
+        "country": "India",
+        "method": "COD",
+        "total": 9200
+      },
+      "orders": [
+        {
+          "orderId": 1759323668981,
+          "date": "10/1/2025, 6:31:08 PM",
+          "status": "Shipped",
+          "type": "COD",
+          "total": 9200,
+          "cart": [
+            {
+              "id": 7,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 35,
+              "name": "Vertex High-Top",
+              "color": 4,
+              "price": 3499
+            },
+            {
+              "id": 10,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 30,
+              "name": "Luxe Loafer",
+              "color": 2,
+              "price": 4799
+            }
+          ],
+          "to": {
+            "name": "najmunnisa",
+            "number": 9605656530,
             "pincode": 679332,
             "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia"
           }

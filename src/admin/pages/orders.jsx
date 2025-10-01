@@ -15,12 +15,42 @@ export default function AdminOrders(){
     fetchData();
   },[])
 
+  function setOrder(orderStatus,i,user){
+    const orders = user.orders.toSpliced(i,1,{
+      ...user.orders[i],
+      status : orderStatus
+    });
+    console.log(orders);
+    axios.put(`http://localhost:5000/users/${user.id}`,{
+      ...user,
+      orders
+    });
+    fetchData();
+  }
+
 
   return(
     <>
      <SideBar/>
      <div className="all-orders-admin-container">
       <h1>All Orders</h1>
+      <div className="order-filtering-admin">
+        <div>
+          All
+        </div>
+        <div>
+          Placed
+        </div>
+        <div>
+          Shipped 
+        </div>
+        <div>
+          Reached 
+        </div>
+        <div>
+          Delivered
+        </div>
+      </div>
       <hr />
       {
         allUser && allUser.map((user,i)=>(
@@ -33,7 +63,7 @@ export default function AdminOrders(){
                 <div>Date : <br/>{v.date}</div>
                 <div>Total Price : <br/>{v.total}</div>
                 <div>Type : <br/>{v.type}</div>
-                <div>Status : <br/>{v.status}</div>
+                <div>Status : <br/>Order {v.status}</div>
               </div>
               <div className="user-admin-orders">
                 {
@@ -51,10 +81,10 @@ export default function AdminOrders(){
                 }
               </div>
               <div className="user-admin-shpping-details">
-                <div>Placed</div>
-                <div>Shipped</div>
-                <div>Reached</div>
-                <div>Delivered</div>
+                <div style={{backgroundColor : v.status == "Placed" ? "green":"none"}}>Placed</div>
+                <div style={{backgroundColor : v.status == "Shipped" ? "green":"none"}} onClick={()=>setOrder("Shipped",i,user)}>Shipped</div>
+                <div style={{backgroundColor : v.status == "Reached" ? "green":"none"}} onClick={()=>setOrder("Reached",i,user)}>Reached</div>
+                <div style={{backgroundColor : v.status == "Delivered" ? "green":"none"}} onClick={()=>setOrder("Delivered",i,user)}>Delivered</div>
               </div>
             </div>
           ))
