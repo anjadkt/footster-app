@@ -17,6 +17,7 @@ import AllProducts from './admin/pages/products'
 import Users from './admin/pages/users'
 import EachUser from './admin/pages/eachUser'
 import AdminOrders from './admin/pages/orders'
+import Notification from './pages/notifications'
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
       <Route path={'/orderSummary'} element ={<ProtectedRoute><OrderSummary/></ProtectedRoute>} />
       <Route path={'/confirm'} element={<ProtectedRoute><OrderSec/></ProtectedRoute>} />
       <Route path={'/orders'} element ={<ProtectedRoute><Orders/></ProtectedRoute>} />
+      <Route path={'/notifications'} element ={<ProtectedRoute><Notification/></ProtectedRoute>} />
       <Route path={'/forgot'} element = {<Forgot/>} />
       <Route path={'/dashboard'}  element ={<ProtectedRoute role="admin"><Dashboard/></ProtectedRoute>}/>
       <Route path={'/allproducts'} element ={<ProtectedRoute role="admin"><AllProducts/></ProtectedRoute>} />

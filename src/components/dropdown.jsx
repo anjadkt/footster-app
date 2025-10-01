@@ -48,6 +48,7 @@ export default function Dropdown(){
 
 export function UserDrop(){
   const navigate = useNavigate();
+  const user = JSON.parse(localStorage.getItem('user'));
   async function postJson(){
     const userObj = JSON.parse(localStorage.getItem('user'));
     const {data}  = await axios.get(` http://localhost:5000/users?id=${userObj.id}`);
@@ -71,7 +72,8 @@ export function UserDrop(){
         <img  src="./icons/favorite.png" alt="" />
         Wishlist
         </div>
-       <div>
+       <div className='noti-cover-div' onClick={()=>navigate('/notifications')}>
+        <div className='noti-count'>{user.noti.length}</div>
         <img  src="./icons/notification.png" alt="" />
         Notifications
         </div>

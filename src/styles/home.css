@@ -355,3 +355,19 @@ nav>div,.buttons-container>div{
   color: rgb(238, 32, 32);
   cursor: pointer;
 }
+
+.noti-cover-div{
+  position: relative;
+}
+
+.noti-count{
+  background-color: red;
+  padding: 2px 4px;
+  font-size: 8px;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  position: absolute;
+  top: 5px;
+  left: 18px;
+}

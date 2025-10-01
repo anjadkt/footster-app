@@ -51,7 +51,12 @@ export function Register(){
         status : 'active',
         password,
         cart :[],
-        noti :[],
+        noti :[
+          {
+            title : `Hello ${name}❤`,
+            dis : `Welcome ${name} to the world of footwear, we hope you are happy to continue with us..`
+          }
+        ],
         saved:[],
         favorite:[],
         address : null,

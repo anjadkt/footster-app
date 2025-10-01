@@ -88,7 +88,10 @@ export default function OrderSummary (){
       }
     }
     setUserObj(pre =>{
-      const newUser = {...pre,cart:[] ,orders :[...pre.orders,orderObj]}
+      const newUser = {...pre,cart:[],noti :[...pre.noti,{
+        title : "Order Placed",
+        dis : `Your order ${orderObj.orderId} is Placed successfully..`
+      }] ,orders :[...pre.orders,orderObj]}
       return newUser
     })
     navigate('/confirm');
