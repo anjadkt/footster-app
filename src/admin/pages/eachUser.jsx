@@ -14,22 +14,24 @@ export default function EachUser(){
   }
 
   function blockUser(){
-    axios.put(`http://localhost:5000/users/${id}`,{
+   axios.put(`http://localhost:5000/users/${id}`,{
       ...user,
       status : user.status == "active"? "blocked" : "active"
     });
     fetchUser();
   }
 
-  function setOrder(orderStatus){
-    // axios.put(`http://localhost:5000/users/${id}`,{
-    //   ...user,
-    //   orders : {
-    //     ...user.orders,
-    //     status : orderStatus
-    //   }
-    // });
-    // fetchUser();
+  function setOrder(orderStatus,i){
+    const orders = user.orders.toSpliced(i,1,{
+      ...user.orders[i],
+      status : orderStatus
+    });
+    console.log(orders);
+    axios.put(`http://localhost:5000/users/${id}`,{
+      ...user,
+      orders
+    });
+    fetchUser();
   }
 
   useEffect(()=>{
@@ -75,9 +77,9 @@ export default function EachUser(){
               </div>
               <div className="user-admin-shpping-details">
                 <div style={{backgroundColor : v.status == "Placed" ? "green":"none"}}>Placed</div>
-                <div onClick={()=>setOrder("Shipped")}>Shipped</div>
-                <div onClick={()=>setOrder("Reached")}>Reached</div>
-                <div onClick={()=>setOrder("Delivered")}>Delivered</div>
+                <div style={{backgroundColor : v.status == "Shipped" ? "green":"none"}} onClick={()=>setOrder("Shipped",i)}>Shipped</div>
+                <div style={{backgroundColor : v.status == "Reached" ? "green":"none"}} onClick={()=>setOrder("Reached",i)}>Reached</div>
+                <div style={{backgroundColor : v.status == "Delivered" ? "green":"none"}} onClick={()=>setOrder("Delivered",i)}>Delivered</div>
               </div>
             </div>
           ))

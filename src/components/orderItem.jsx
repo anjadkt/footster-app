@@ -5,6 +5,7 @@ export default function OrderItems ({orderDetails}){
   onlyDate.setDate(onlyDate.getDate() + 7);
 
   const deliveryDate = onlyDate.toISOString().split("T")[0];
+
   
   return (
     <>
@@ -12,8 +13,8 @@ export default function OrderItems ({orderDetails}){
        <div className="ordered-discription-div">
         <div><span>Order Placed : <br/> </span>{orderDetails.date}</div>
         <div><span>Total Paid : <br/></span> {orderDetails.total}</div>
-        <div><span>status : <br /> </span>{orderDetails.status}</div>
         <div><span>Order ID : <br /> </span>{orderDetails.orderId}</div>
+        <div><span>status : <br /> </span><div className='order-stats'>{orderDetails.status}</div></div>
        </div>
        <div className="ordered-items-div">
         {

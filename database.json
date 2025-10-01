@@ -59,7 +59,7 @@
         {
           "orderId": 1759138655463,
           "date": "9/29/2025, 3:07:35 PM",
-          "status": "Placed",
+          "status": "Delivered",
           "type": "COD",
           "total": 8900,
           "cart": [
@@ -473,13 +473,13 @@
         "state": "Kerala",
         "country": "India",
         "method": "COD",
-        "total": 7000
+        "total": 5300
       },
       "orders": [
         {
           "orderId": 1759294390357,
           "date": "10/1/2025, 10:23:10 AM",
-          "status": "Placed",
+          "status": "Reached",
           "type": "COD",
           "total": 7000,
           "cart": [
@@ -500,6 +500,30 @@
               "name": "Zen Minimal",
               "color": 3,
               "price": 2799
+            }
+          ],
+          "to": {
+            "name": "ANJAD KT",
+            "number": 9778175092,
+            "pincode": 679332,
+            "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia"
+          }
+        },
+        {
+          "orderId": 1759295404531,
+          "date": "10/1/2025, 10:40:04 AM",
+          "status": "Shipped",
+          "type": "COD",
+          "total": 5300,
+          "cart": [
+            {
+              "id": 10,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 30,
+              "name": "Luxe Loafer",
+              "color": 2,
+              "price": 4799
             }
           ],
           "to": {

@@ -5,6 +5,7 @@ import '../styles/allorders.css'
 
 export default function AdminOrders(){
   const [allUser,setAlluser] = useState([]);
+
   async function fetchData(){
     const {data} = await axios.get('http://localhost:5000/users');
     data.shift();
@@ -14,7 +15,7 @@ export default function AdminOrders(){
     fetchData();
   },[])
 
-  console.log(allUser);
+
   return(
     <>
      <SideBar/>
