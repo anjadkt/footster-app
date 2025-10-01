@@ -32,7 +32,10 @@ export default function SideBar (){
           </div>
         </div>
       </div>
-      <div onClick={()=> localStorage.clear()} className='logout-btn'>
+      <div onClick={()=> {
+        localStorage.clear();
+        navigate('/login');
+      }} className='logout-btn'>
         <div>Logout</div>
       </div>
      </div>

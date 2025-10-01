@@ -44,7 +44,7 @@ export default function EachUser(){
                 <div>Date : <br/>{v.date}</div>
                 <div>Total Price : <br/>{v.total}</div>
                 <div>Type : <br/>{v.type}</div>
-                <div>Status : <br/>{v.status}</div>
+                <div>Status : <br/>Order {v.status}</div>
               </div>
               <div className="user-admin-orders">
                 {

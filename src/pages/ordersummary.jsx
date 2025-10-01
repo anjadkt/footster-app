@@ -76,7 +76,7 @@ export default function OrderSummary (){
     const orderObj= {
       orderId : Date.now(),
       date : dateCon.toLocaleString(),
-      status : "Order Placed",
+      status : "Placed",
       type : Elems.current.method.value ,
       total : price.total,
       cart :[...userObj.cart],
@@ -91,7 +91,6 @@ export default function OrderSummary (){
       const newUser = {...pre,cart:[] ,orders :[...pre.orders,orderObj]}
       return newUser
     })
-    console.log(userObj);
     navigate('/confirm');
   }
 
