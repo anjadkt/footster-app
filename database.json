@@ -34,7 +34,17 @@
       "password": "123456",
       "cart": [],
       "noti": [],
-      "saved": [],
+      "saved": [
+        {
+          "id": 7,
+          "isFav": false,
+          "quantity": 1,
+          "rating": 35,
+          "name": "Vertex High-Top",
+          "color": 4,
+          "price": 3499
+        }
+      ],
       "favorite": [
         {
           "id": 13,
@@ -487,7 +497,7 @@
         "state": "Kerala",
         "country": "India",
         "method": "COD",
-        "total": 5300
+        "total": 3900
       },
       "orders": [
         {
@@ -538,6 +548,30 @@
               "name": "Luxe Loafer",
               "color": 2,
               "price": 4799
+            }
+          ],
+          "to": {
+            "name": "ANJAD KT",
+            "number": 9778175092,
+            "pincode": 679332,
+            "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia"
+          }
+        },
+        {
+          "orderId": 1759339511350,
+          "date": "10/1/2025, 10:55:11 PM",
+          "status": "Placed",
+          "type": "COD",
+          "total": 3900,
+          "cart": [
+            {
+              "id": 7,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 35,
+              "name": "Vertex High-Top",
+              "color": 4,
+              "price": 3499
             }
           ],
           "to": {

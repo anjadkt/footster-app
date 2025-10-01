@@ -19,7 +19,7 @@ export default function CartItem({data,dispatch,index}){
             <button onClick={()=>dispatch({type : "inc",data :data,index :index})} >+</button>
           </div>
           <div className="save-remove-div">
-            <button className="save-later">Save for Later</button>
+            <button className="save-later" onClick={()=>dispatch({type : "save",data :data,index :index})}>Save for Later</button>
             <button onClick={()=>{
               toast.warning("Item removed");
               dispatch({type : "remove",index : index})
