@@ -51,6 +51,8 @@ export function Register(){
         status : 'active',
         password,
         cart :[],
+        noti :[],
+        saved:[],
         favorite:[],
         address : null,
         orders : []

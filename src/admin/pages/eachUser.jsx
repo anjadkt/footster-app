@@ -26,10 +26,15 @@ export default function EachUser(){
       ...user.orders[i],
       status : orderStatus
     });
-    console.log(orders);
+    const noti = [...user.noti];
+    noti.push({
+      title : `Order ${orderStatus}`,
+      dis :`hello ${user.name}, your order ${user.orders[i].orderId} has been ${orderStatus} successfully`
+    });
     axios.put(`http://localhost:5000/users/${id}`,{
       ...user,
-      orders
+      orders,
+      noti
     });
     fetchUser();
   }
@@ -76,7 +81,7 @@ export default function EachUser(){
                 }
               </div>
               <div className="user-admin-shpping-details">
-                <div style={{backgroundColor : v.status == "Placed" ? "green":"none"}}>Placed</div>
+                <div onClick={()=>setOrder("Placed",i)} style={{backgroundColor : v.status == "Placed" ? "green":"none"}}>Placed</div>
                 <div style={{backgroundColor : v.status == "Shipped" ? "green":"none"}} onClick={()=>setOrder("Shipped",i)}>Shipped</div>
                 <div style={{backgroundColor : v.status == "Reached" ? "green":"none"}} onClick={()=>setOrder("Reached",i)}>Reached</div>
                 <div style={{backgroundColor : v.status == "Delivered" ? "green":"none"}} onClick={()=>setOrder("Delivered",i)}>Delivered</div>

@@ -33,6 +33,8 @@
       "email": "jumanafathimaep@gmail.com",
       "password": "123456",
       "cart": [],
+      "noti": [],
+      "saved": [],
       "favorite": [
         {
           "id": 13,
@@ -59,7 +61,7 @@
         {
           "orderId": 1759138655463,
           "date": "9/29/2025, 3:07:35 PM",
-          "status": "Shipped",
+          "status": "Placed",
           "type": "COD",
           "total": 8900,
           "cart": [
@@ -100,6 +102,8 @@
       "email": "ansil@gmail.com",
       "password": "123456",
       "cart": [],
+      "noti": [],
+      "saved": [],
       "favorite": [
         {
           "id": 3,
@@ -204,6 +208,8 @@
           "price": 1999
         }
       ],
+      "noti": [],
+      "saved": [],
       "favorite": [
         {
           "id": 2,
@@ -264,6 +270,8 @@
           "price": 1999
         }
       ],
+      "noti": [],
+      "saved": [],
       "favorite": [
         {
           "id": 2,
@@ -287,6 +295,8 @@
       "email": "shiyas@gmail.com",
       "password": "123456",
       "cart": [],
+      "noti": [],
+      "saved": [],
       "favorite": [],
       "address": {
         "name": "shiyas",
@@ -362,6 +372,8 @@
       "status": "active",
       "password": "123456",
       "cart": [],
+      "noti": [],
+      "saved": [],
       "favorite": [
         {
           "id": 7,
@@ -444,6 +456,8 @@
       "status": "active",
       "password": "123456",
       "cart": [],
+      "noti": [],
+      "saved": [],
       "favorite": [
         {
           "id": 19,
@@ -544,6 +558,8 @@
       "status": "active",
       "password": "123456",
       "cart": [],
+      "noti": [],
+      "saved": [],
       "favorite": [
         {
           "id": 7,
