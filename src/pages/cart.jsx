@@ -40,12 +40,23 @@ export default function Cart(){
           {...action.data,quantity : Math.max(action.data.quantity-1,1)});
         return newObj;
 
-      case "save" :
-        const save = [...newObj.saved]
-        save.push(action.data);
-        newObj.cart = newObj.cart.toSpliced(action.index,1);
-        newObj.saved = save ;
-        return newObj;
+      case "save":
+        let save = [...newObj.saved];
+        const existIndex = save.findIndex(product => product.id == action.data.id);
+
+        if (existIndex !== -1) {
+          // Replace with a new object instead of mutating
+          save[existIndex] = {
+            ...save[existIndex],
+            quantity: save[existIndex].quantity + action.data.quantity
+          };
+        } else {
+          save.push(action.data);
+        }
+
+        newObj.cart = newObj.cart.toSpliced(action.index, 1);
+        newObj.saved = save;
+       return newObj;
 
       default :
        return newObj ;
@@ -112,13 +123,16 @@ export default function Cart(){
                 <h2 className='empty-cart'>(Nothing Saved)</h2>
               ) : (
                 userObj && userObj.saved.map((v,i)=>(
-            <div className="product-save-container">
+            <div key={i} className="product-save-container">
                 <div className="cart-img-div">
                   <img className="cart-product-img" src={`./products/shoe-${v.id}.png`} alt="product image" />
                 </div>
                 <div className="product-details-div">
                   <p>{v.name}</p>
                   <h4>&#8377;{v.price}</h4>
+                  <div className="quantity-div">
+                    Quantity :<span>{v.quantity}</span>
+                  </div>
                   <div className="save-remove-div">
                     <button onClick={()=>dispatch({type : "add",data : v,index : i})} className="save-later">Add to cart</button>
                     <button onClick={()=>dispatch({type : "sremove",index : i})}>Remove</button>
