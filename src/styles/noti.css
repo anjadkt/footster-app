@@ -6,6 +6,7 @@
   margin-left: 50px;
   color: rgb(67, 67, 67);
   font-weight: 500;
+  font-size: 28px;
 }
 
 .all-noti-container-div{
@@ -19,12 +20,17 @@
   padding-right: 50px;
   border-radius: 10px;
   cursor: pointer;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.2s ease-in-out;
   font-family: Lato ,Arial, Helvetica, sans-serif;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  &:hover{
+    background-color: rgba(232, 232, 232, 0.616);
+    color: black;
+  }
 }
 
 .each-notification h3{
@@ -36,8 +42,7 @@
 }
 
 .each-notification:hover{
-  background-color: black;
-  color: white;
+  
 }
 
 .no-noti{

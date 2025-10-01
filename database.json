@@ -61,7 +61,7 @@
         {
           "orderId": 1759138655463,
           "date": "9/29/2025, 3:07:35 PM",
-          "status": "Placed",
+          "status": "Delivered",
           "type": "COD",
           "total": 8900,
           "cart": [
@@ -526,7 +526,7 @@
         {
           "orderId": 1759295404531,
           "date": "10/1/2025, 10:40:04 AM",
-          "status": "Shipped",
+          "status": "Delivered",
           "type": "COD",
           "total": 5300,
           "cart": [
@@ -636,20 +636,7 @@
       "status": "active",
       "password": "123456",
       "cart": [],
-      "noti": [
-        {
-          "title": "Order Shipped",
-          "dis": "hello ashmil, your order 1759333324247 has been Shipped successfully"
-        },
-        {
-          "title": "Order Shipped",
-          "dis": "hello ashmil, your order 1759333387308 has been Shipped successfully"
-        },
-        {
-          "title": "Order Shipped",
-          "dis": "hello ashmil, your order 1759333387308 has been Shipped successfully"
-        }
-      ],
+      "noti": [],
       "saved": [],
       "favorite": [],
       "address": {
@@ -746,6 +733,26 @@
           }
         }
       ]
+    },
+    {
+      "role": "user",
+      "id": 1759334126940,
+      "login": false,
+      "name": "anshida",
+      "email": "anshida@gmail.com",
+      "status": "active",
+      "password": "123456",
+      "cart": [],
+      "noti": [
+        {
+          "title": "Hello anshida❤",
+          "dis": "Welcome anshida to the world of footwear, we hope you are happy to continue with us.."
+        }
+      ],
+      "saved": [],
+      "favorite": [],
+      "address": null,
+      "orders": []
     }
   ],
   "products": [

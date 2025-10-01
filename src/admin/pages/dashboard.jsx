@@ -20,7 +20,7 @@ export default function Dashboard(){
 
     setData({ 
       products : products.data.length,
-      userCount : users?.data.length,
+      userCount : users?.data.length - 1,
       orders : calOrders()
     });
 

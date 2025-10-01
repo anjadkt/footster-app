@@ -20,10 +20,15 @@ export default function AdminOrders(){
       ...user.orders[i],
       status : orderStatus
     });
-    console.log(orders);
+    const noti = [...user.noti];
+    noti.push({
+      title : `Order ${orderStatus}`,
+      dis :`hello ${user.name}, your order ${user.orders[i].orderId} has been ${orderStatus} successfully`
+    });
     axios.put(`http://localhost:5000/users/${user.id}`,{
       ...user,
-      orders
+      orders,
+      noti
     });
     fetchData();
   }
@@ -59,7 +64,7 @@ export default function AdminOrders(){
           user.orders && user.orders.map((v,i)=>(
             <div key={i} className="user-admin-orders">
               <div className="user-admin-orders-details">
-                <div>order ID :<br/>{v.orderId}</div>
+                <div>User :<br/>{user.name}</div>
                 <div>Date : <br/>{v.date}</div>
                 <div>Total Price : <br/>{v.total}</div>
                 <div>Type : <br/>{v.type}</div>
