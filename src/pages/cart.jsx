@@ -124,7 +124,7 @@ export default function Cart(){
               ) : (
                 userObj && userObj.saved.map((v,i)=>(
             <div key={i} className="product-save-container">
-                <div className="cart-img-div">
+                <div onClick={()=>navigate(`/product/${v.id}`)} className="cart-img-div">
                   <img className="cart-product-img" src={`./products/shoe-${v.id}.png`} alt="product image" />
                 </div>
                 <div className="product-details-div">

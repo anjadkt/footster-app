@@ -1,12 +1,14 @@
+import { useNavigate } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify"
 
 export default function CartItem({data,dispatch,index}){
+  const navigate = useNavigate();
   return (
     <>
      <div className="cart-product-container">
       <h3>Delivery date: Tuesday, June 21</h3>
       <div className="product-details-container">
-        <div className="cart-img-div">
+        <div onClick={()=>navigate(`/product/${data.id}`)} className="cart-img-div">
           <img className="cart-product-img" src={`./products/shoe-${data.id}.png`} alt="product image" />
         </div>
         <div className="product-details-div">

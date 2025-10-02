@@ -40,7 +40,7 @@ export default function Header (){
           className='nav-links rel-drop' 
           onClick={()=>setDrop(!drop)}>
             Catagory 
-            <img style={{transform : drop ? "rotate(-180deg)" : "rotate(0deg)",color:"green",transition: "transform 0.3s ease"}} className='downarrow' src="./icons/downarrow.png" />
+            <img style={{transform : drop ? "rotate(-180deg)" : "rotate(0deg)",color:"green",transition: "transform 0.3s ease"}} className='downarrow' src="/icons/downarrow.png" />
             {drop && <Dropdown/>}
           </div>
           <div><Link to='/blogs' className='nav-links'>blogs</Link></div>
@@ -49,20 +49,20 @@ export default function Header (){
       <div className="buttons-container">
          <div onClick={()=>setSearch(!search)}  >
           <input onChange={e => listProducts(e.target)} className='search-bar' type="text" placeholder='Search for products..' />
-          <img className='icons search-icon' src="./icons/search.png" alt="search for products.." />
+          <img className='icons search-icon' src="/icons/search.png" alt="search for products.." />
           {search && <button onClick={()=>setSearch(!search)} className='search-close'>X</button>}
          </div>
         
           <div className='cart-div' onClick={ ()=> login ? navigate('/cart') : navigate('/login')}>
-            <img className='icons' src="./icons/cart.png" alt="" />
+            <img className='icons' src="/icons/cart.png" alt="" />
             <div className='cart-count-div'>{cart.length}</div>
           </div> 
         
         <div className='user-container-div' onClick={()=> login ? setUserdrop(!userdrop) : navigate('/login') }>
-          <img className='icons user-icon' src="./icons/user.png" alt="" />
+          <img className='icons user-icon' src="/icons/user.png" alt="" />
           <p>
             {login ? name : "Login"}
-            <img style={{transform : login && userdrop ? "rotate(-180deg)" : "rotate(0deg)",color:"green",transition: "transform 0.3s ease"}} className='downarrow use-arrow' src="./icons/downarrow.png" />
+            <img style={{transform : login && userdrop ? "rotate(-180deg)" : "rotate(0deg)",color:"green",transition: "transform 0.3s ease"}} className='downarrow use-arrow' src="/icons/downarrow.png" />
           </p>
           { userdrop && <UserDrop/>}
         </div>

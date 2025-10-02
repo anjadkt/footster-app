@@ -19,6 +19,7 @@ import Users from './admin/pages/users'
 import EachUser from './admin/pages/eachUser'
 import AdminOrders from './admin/pages/orders'
 import Notification from './pages/notifications'
+import EachProduct from './pages/eachProduct'
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
       <Route path={'/signup'} element ={<Register/>}/>
       <Route path={'/login'} element ={<PublicRoute><Login/></PublicRoute>}/>
       <Route path={'/products'} element={<Products />} />
+      <Route path={'/product/:id'} element={<EachProduct/>} />
       <Route path={'/blogs'} element={<Blogs />} />
       <Route path={'/cart'} element ={<ProtectedRoute><Cart/></ProtectedRoute>} />
       <Route path={'/wishlist'} element ={<ProtectedRoute><Wishlist/></ProtectedRoute>} />

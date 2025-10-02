@@ -79,10 +79,10 @@ export default function Product ({data}){
         </div>
         
       </div>
-      <div className='product-img-div'>
+      <div onClick={()=>navigate(`/product/${data.id}`)} className='product-img-div'>
         <img className='product' src={`./products/shoe-${data.id}.png`} alt="img" />
       </div>
-      <div className='product-rating-div'>
+      <div onClick={()=>navigate(`/product/${data.id}`)} className='product-rating-div'>
         <div>
           <img src={`./ratings/rating-${data.rating}.png`} alt="img" />
         </div>
