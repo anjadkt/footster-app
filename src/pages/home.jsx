@@ -3,10 +3,13 @@ import { useFetch } from '../customHooks/customHooks'
 import Product from '../components/product';
 import Header from '../components/header';
 import Title from '../components/title';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 export default function Home (){
   const [products] = useFetch(' http://localhost:5000/products?_page=1&_limit=24');
+  useEffect(()=>{
+    document.title = "Footster"
+  },[])
   
   return(
     <>
