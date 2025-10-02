@@ -3,6 +3,7 @@ import '../styles/login.css'
 import {Link,useNavigate} from 'react-router-dom'
 import { useError, useFetch } from '../customHooks/customHooks'
 import axios from 'axios';
+import{toast,ToastContainer} from 'react-toastify'
 
 export function Register(){
   const [error,setError] = useError();
@@ -61,8 +62,9 @@ export function Register(){
         favorite:[],
         address : null,
         orders : []
-      })
-      navigate('/login')
+      });
+      toast.success("Registered")
+      setTimeout(()=>{navigate('/login')},1000);
     }
   }
   return (
@@ -158,8 +160,8 @@ export default function Login (){
 
       if(adminData.email === inputElem.current.email.value && adminData.password === inputElem.current.password.value ){
         localStorage.setItem('user',JSON.stringify({...adminData,login : true,password : null , email:null}));
-        alert("admin login success");
-        navigate('/dashboard');
+        toast.success('Welcome Admin');
+       setTimeout(()=>{navigate('/dashboard')},1000);
         return;
       }
     
@@ -169,7 +171,7 @@ export default function Login (){
       const data = res.data[0] || [] ;
 
       if(data.status == "blocked"){
-        alert("Account Blocked");
+         toast.warning('Account Blocked!')
         return;
       }
       if(data.length === 0){
@@ -183,7 +185,8 @@ export default function Login (){
 
       if(Object.keys(obj)?.length === 0){
         localStorage.setItem('user',JSON.stringify({...data,login : true,password : null , email:null}));
-        navigate('/');
+        toast.success(`Welcome ${data.name}`)
+        setTimeout(()=>{navigate('/')},1000);
       }
     }catch(err){
       console.log(err.message);

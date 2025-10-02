@@ -35,7 +35,7 @@ export default function Product ({data}){
     updatedUser.cart.push(newProduct);
   }
 
-  toast.success("Item added")
+  toast.success("Added to Cart")
   localStorage.setItem('user', JSON.stringify(updatedUser));
   Elem.current.select.value = 1;
   }

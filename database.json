@@ -33,18 +33,25 @@
       "email": "jumanafathimaep@gmail.com",
       "password": "123456",
       "cart": [],
-      "noti": [],
-      "saved": [
+      "noti": [
         {
-          "id": 7,
-          "isFav": false,
-          "quantity": 1,
-          "rating": 35,
-          "name": "Vertex High-Top",
-          "color": 4,
-          "price": 3499
+          "title": "Order Shipped",
+          "dis": "hello jumana, your order 1759138655463 has been Shipped successfully"
+        },
+        {
+          "title": "Order Reached",
+          "dis": "hello jumana, your order 1759138655463 has been Reached successfully"
+        },
+        {
+          "title": "Order Delivered",
+          "dis": "hello jumana, your order 1759138655463 has been Delivered successfully"
+        },
+        {
+          "title": "Order Delivered",
+          "dis": "hello jumana, your order 1759138655463 has been Delivered successfully"
         }
       ],
+      "saved": [],
       "favorite": [
         {
           "id": 13,

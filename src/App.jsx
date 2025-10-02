@@ -1,6 +1,7 @@
 import './styles/App.css'
 import Login,{Register} from './pages/Login'
 import { Route,Routes } from 'react-router-dom'
+import{ToastContainer} from 'react-toastify'
 import ProtectedRoute from './auth/routeProtect'
 import PublicRoute from './auth/publicRoute'
 import Home from './pages/home'
@@ -42,6 +43,7 @@ function App() {
       <Route path={'/users/:id'} element ={<ProtectedRoute role="admin"><EachUser/></ProtectedRoute>} />
       <Route path={'/adminOrders'} element ={<ProtectedRoute role="admin"><AdminOrders/></ProtectedRoute>} />
     </Routes>
+    <ToastContainer autoClose={1500} />
     
     </>
   )
