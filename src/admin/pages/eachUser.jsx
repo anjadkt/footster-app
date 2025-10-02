@@ -9,7 +9,6 @@ export default function EachUser(){
   const {id} = useParams();
   async function fetchUser() {
     const {data} = await axios.get(`http://localhost:5000/users/${id}`);
-    console.log(data)
     setUser(data);
   }
 
@@ -39,6 +38,19 @@ export default function EachUser(){
     fetchUser();
   }
 
+  function messageUser(e){
+    const noti = [...user.noti] 
+    noti.push({
+      title : e.target[0].value,
+      dis : e.target[1].value
+    });
+    axios.put(`http://localhost:5000/users/${id}`,{
+      ...user,
+      noti
+    })
+
+  }
+
   useEffect(()=>{
     fetchUser();
   },[])
@@ -47,12 +59,22 @@ export default function EachUser(){
      <SideBar/>
      <div className="all-user-info-container-div">
       <div className="user-info-container-div">
-        <h1>{user.name}</h1>
-        <p>ID : {user.id}</p>
-        <p> Email - {user.email}</p>
-        <p>status - <span className="user-status" style={{backgroundColor : user.status == "active" ? "#78eda5ff":"red"}}>{user.status}</span></p>
-        <br />
-        <button onClick={blockUser} className="block-user">{user.status == "active" ? "Block User": "Unblock User"}</button>
+        <div>
+          <h1>{user.name}</h1>
+          <p>ID : {user.id}</p>
+          <p> Email - {user.email}</p>
+          <p>status - <span className="user-status" style={{backgroundColor : user.status == "active" ? "#78eda5ff":"red"}}>{user.status}</span></p>
+          <br />
+          <button onClick={blockUser} className="block-user">{user.status == "active" ? "Block User": "Unblock User"}</button>
+        </div>
+        <div className="message-user">
+          <form onSubmit={(e)=>messageUser(e)}>
+            <label>Message user</label>
+            <input required type="text" placeholder="Title"/>
+            <textarea placeholder="discription" rows={5}></textarea>
+            <input className="msg-submit" type="submit" value={'message'} />
+          </form>
+        </div>
       </div>
       <div className="user-orders-container-div">
         {

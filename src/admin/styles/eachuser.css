@@ -11,13 +11,55 @@
 
 /* ========== USER INFO CARD ========== */
 .user-info-container-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background: #fff;
-  padding: 1.5rem 2rem;
+  padding: 20px 2rem;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  max-width: 300px;
+  max-width: 600px;
 }
 
+.message-user form{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border: 1px solid rgb(198, 198, 198);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.message-user label{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.message-user input{
+  padding: 5px;
+}
+
+.message-user textarea {
+  padding: 5px;
+}
+
+.msg-submit{
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 400;
+  transition: all 0.4s ease;
+  &:hover{
+    background-color: #111827;
+    color: white;
+  }
+
+  &:active{
+    background-color: white;
+    color: black;
+  }
+}
 .user-info-container-div h1 {
   font-size: 1.8rem;
   font-weight: 600;
