@@ -102,7 +102,12 @@
       "email": "ansil@gmail.com",
       "password": "123456",
       "cart": [],
-      "noti": [],
+      "noti": [
+        {
+          "title": "Order Delivered",
+          "dis": "hello ansil, your order 1759138734641 has been Delivered successfully"
+        }
+      ],
       "saved": [],
       "favorite": [
         {
@@ -139,7 +144,7 @@
         {
           "orderId": 1759138734641,
           "date": "9/29/2025, 3:08:54 PM",
-          "status": "Shipped",
+          "status": "Delivered",
           "type": "COD",
           "total": 11100,
           "cart": [
@@ -295,7 +300,12 @@
       "email": "shiyas@gmail.com",
       "password": "123456",
       "cart": [],
-      "noti": [],
+      "noti": [
+        {
+          "title": "Order Delivered",
+          "dis": "hello shiyas, your order 1759138929543 has been Delivered successfully"
+        }
+      ],
       "saved": [],
       "favorite": [],
       "address": {
@@ -313,7 +323,7 @@
         {
           "orderId": 1759138929543,
           "date": "9/29/2025, 3:12:09 PM",
-          "status": "Shipped",
+          "status": "Delivered",
           "type": "COD",
           "total": 14700,
           "cart": [
@@ -372,7 +382,20 @@
       "status": "active",
       "password": "123456",
       "cart": [],
-      "noti": [],
+      "noti": [
+        {
+          "title": "Order Delivered",
+          "dis": "hello kevin, your order 1759214553803 has been Delivered successfully"
+        },
+        {
+          "title": "Order Delivered",
+          "dis": "hello kevin, your order 1759214553803 has been Delivered successfully"
+        },
+        {
+          "title": "Order Delivered",
+          "dis": "hello kevin, your order 1759214720327 has been Delivered successfully"
+        }
+      ],
       "saved": [],
       "favorite": [
         {
@@ -400,7 +423,7 @@
         {
           "orderId": 1759214553803,
           "date": "9/30/2025, 12:12:33 PM",
-          "status": "Placed",
+          "status": "Delivered",
           "type": "COD",
           "total": 3900,
           "cart": [
@@ -424,7 +447,7 @@
         {
           "orderId": 1759214720327,
           "date": "9/30/2025, 12:15:20 PM",
-          "status": "Placed",
+          "status": "Delivered",
           "type": "COD",
           "total": 2200,
           "cart": [
@@ -456,7 +479,16 @@
       "status": "active",
       "password": "123456",
       "cart": [],
-      "noti": [],
+      "noti": [
+        {
+          "title": "Order Delivered",
+          "dis": "hello anjad, your order 1759294390357 has been Delivered successfully"
+        },
+        {
+          "title": "Order Delivered",
+          "dis": "hello anjad, your order 1759339511350 has been Delivered successfully"
+        }
+      ],
       "saved": [],
       "favorite": [
         {
@@ -493,7 +525,7 @@
         {
           "orderId": 1759294390357,
           "date": "10/1/2025, 10:23:10 AM",
-          "status": "Reached",
+          "status": "Delivered",
           "type": "COD",
           "total": 7000,
           "cart": [
@@ -550,7 +582,7 @@
         {
           "orderId": 1759339511350,
           "date": "10/1/2025, 10:55:11 PM",
-          "status": "Placed",
+          "status": "Delivered",
           "type": "COD",
           "total": 3900,
           "cart": [
@@ -582,7 +614,12 @@
       "status": "active",
       "password": "123456",
       "cart": [],
-      "noti": [],
+      "noti": [
+        {
+          "title": "Order Delivered",
+          "dis": "hello najmunnisa, your order 1759323668981 has been Delivered successfully"
+        }
+      ],
       "saved": [],
       "favorite": [
         {
@@ -619,7 +656,7 @@
         {
           "orderId": 1759323668981,
           "date": "10/1/2025, 6:31:08 PM",
-          "status": "Shipped",
+          "status": "Delivered",
           "type": "COD",
           "total": 9200,
           "cart": [
@@ -653,113 +690,6 @@
     },
     {
       "role": "user",
-      "id": 1759329795613,
-      "login": false,
-      "name": "ashmil",
-      "email": "ashmil@gmail.com",
-      "status": "active",
-      "password": "123456",
-      "cart": [],
-      "noti": [],
-      "saved": [],
-      "favorite": [],
-      "address": {
-        "name": "ashmil",
-        "number": 8667890921,
-        "pincode": 679332,
-        "city": "Malappuram",
-        "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia",
-        "state": "Kerala",
-        "country": "India",
-        "method": "COD",
-        "total": 3499272400
-      },
-      "orders": [
-        {
-          "orderId": 1759330082258,
-          "date": "10/1/2025, 8:18:02 PM",
-          "status": "Delivered",
-          "type": "COD",
-          "total": 8600,
-          "cart": [
-            {
-              "id": 22,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 10,
-              "name": "Elite Loafer",
-              "color": 2,
-              "price": 4799
-            },
-            {
-              "id": 23,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 15,
-              "name": "Core Trainer",
-              "color": 5,
-              "price": 2999
-            }
-          ],
-          "to": {
-            "name": "ashmil",
-            "number": 8667890921,
-            "pincode": 679332,
-            "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia"
-          }
-        },
-        {
-          "orderId": 1759333324247,
-          "date": "10/1/2025, 9:12:04 PM",
-          "status": "Shipped",
-          "type": "COD",
-          "total": 6100,
-          "cart": [
-            {
-              "id": 3,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 15,
-              "name": "Canyon Trail Pro",
-              "color": 5,
-              "price": 5499
-            }
-          ],
-          "to": {
-            "name": "ashmil",
-            "number": 8667890921,
-            "pincode": 679332,
-            "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia"
-          }
-        },
-        {
-          "orderId": 1759333387308,
-          "date": "10/1/2025, 9:13:07 PM",
-          "status": "Shipped",
-          "type": "COD",
-          "total": 3499272400,
-          "cart": [
-            {
-              "id": 1,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 50,
-              "name": "Atlas Runner",
-              "color": "2",
-              "price": "3499"
-            }
-          ],
-          "to": {
-            "name": "ashmil",
-            "number": 8667890921,
-            "pincode": 679332,
-            "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia"
-          }
-        }
-      ]
-    },
-    {
-      "role": "user",
       "id": 1759334126940,
       "login": false,
       "name": "anshida",
@@ -777,6 +707,65 @@
       "favorite": [],
       "address": null,
       "orders": []
+    },
+    {
+      "role": "user",
+      "id": 1759387942878,
+      "login": false,
+      "name": "ashmil",
+      "email": "ashmil@gmail.com",
+      "status": "active",
+      "password": "123456",
+      "cart": [],
+      "noti": [
+        {
+          "title": "Hello ashmil❤",
+          "dis": "Welcome ashmil to the world of footwear, we hope you are happy to continue with us.."
+        },
+        {
+          "title": "Order Placed",
+          "dis": "Your order 1759387985884 is Placed successfully.."
+        }
+      ],
+      "saved": [],
+      "favorite": [],
+      "address": {
+        "name": "ashmil",
+        "number": 939393939,
+        "pincode": 679332,
+        "city": "Malappuram",
+        "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia",
+        "state": "Kerala",
+        "country": "India",
+        "method": "COD",
+        "total": 3900
+      },
+      "orders": [
+        {
+          "orderId": 1759387985884,
+          "date": "10/2/2025, 12:23:05 PM",
+          "status": "Placed",
+          "type": "COD",
+          "total": 3900,
+          "cart": [
+            {
+              "id": 7,
+              "isFav": false,
+              "quantity": 1,
+              "rating": 35,
+              "name": "Vertex High-Top",
+              "color": 4,
+              "price": 3499
+            }
+          ],
+          "to": {
+            "name": "ashmil",
+            "number": 939393939,
+            "pincode": 679332,
+            "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia"
+          }
+        }
+      ]
     }
   ],
   "products": [
