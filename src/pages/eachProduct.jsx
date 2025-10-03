@@ -9,7 +9,6 @@ export default function EachProduct (){
   const {id} = useParams();
   const [product,setProduct] = useState({});
   const [fav,setFav] = useState(false);
-  const [userObj,setUserObj] = useState({});
   const navigate = useNavigate();
   
   useEffect(()=>{
@@ -18,8 +17,6 @@ export default function EachProduct (){
       setProduct(data);
 
       const user = JSON.parse(localStorage.getItem('user'));
-      setUserObj(user);
-
       const favProduct = user.favorite.find(d => d.id === data.id);
       setFav(!!favProduct);
     }
@@ -71,15 +68,6 @@ export default function EachProduct (){
     toast.success("Added to Cart")
     localStorage.setItem('user', JSON.stringify(updatedUser));
   }
-
-  function buyItNow (){
-    const cart = [];
-    cart.push(product);
-    sessionStorage.setItem('localUser',JSON.stringify({
-      ...userObj,cart
-    }));
-    navigate('/orderSummary');
-  }
   return (
     <>
      <Header />
@@ -95,7 +83,7 @@ export default function EachProduct (){
         </div>
         <div className="single-product-cart-buy-btn">
           <button onClick={addToCart} className="add-to-cart">Add to cart</button>
-          <button onClick={buyItNow} className="buy-it-now">Buy it Now</button>
+          <button onClick={addToCart} className="buy-it-now">Buy it Now</button>
         </div>
       </div>
       <div className="single-product-details-div">
