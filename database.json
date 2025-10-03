@@ -32,10 +32,34 @@
       "email": "anjad076@gmail.com",
       "status": "active",
       "password": "123456",
-      "cart": [],
+      "cart": [
+        {
+          "id": 8,
+          "isFav": false,
+          "reviews": [],
+          "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500268/shoe-46_icwy0w.png",
+          "quantity": 1,
+          "rating": 40,
+          "name": "Glide Minimal",
+          "color": 3,
+          "price": 2799
+        }
+      ],
       "noti": [],
       "saved": [],
-      "favorite": [],
+      "favorite": [
+        {
+          "id": 8,
+          "isFav": true,
+          "reviews": [],
+          "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500268/shoe-46_icwy0w.png",
+          "quantity": 1,
+          "rating": 40,
+          "name": "Glide Minimal",
+          "color": 3,
+          "price": 2799
+        }
+      ],
       "address": {
         "name": "ANJAD KT",
         "number": 9778175092,
@@ -134,8 +158,8 @@
       "quantity": 1,
       "rating": 50,
       "name": "Atlas Runner",
-      "color": "2",
-      "price": "3299"
+      "color": "3",
+      "price": "2499"
     },
     {
       "id": 2,
@@ -636,7 +660,7 @@
       "id": 47,
       "isFav": false,
       "reviews": [],
-      "img": "",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500244/shoe-36_cbkbpn.png",
       "quantity": 1,
       "rating": 20,
       "name": "Campus Max Air",
@@ -664,6 +688,36 @@
       "name": "nike sweeden",
       "color": "2",
       "price": "5999"
+    },
+    {
+      "id": 51,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 0,
+      "name": "puma sneakers",
+      "color": "2",
+      "price": "2999",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759510204/o783r8zaolmsc9izimky.png"
+    },
+    {
+      "id": 52,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 0,
+      "name": "nike sneakers",
+      "color": "3",
+      "price": "3999",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759510221/odmalvkoxojhkco4du0l.jpg"
+    },
+    {
+      "id": 53,
+      "isFav": false,
+      "quantity": 1,
+      "rating": 0,
+      "name": "jordhan",
+      "color": "3",
+      "price": "2499",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759510265/i7cjmhdpiinynrfdmogf.png"
     }
   ]
 }

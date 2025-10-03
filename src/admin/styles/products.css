@@ -49,20 +49,37 @@
 
 /* ===== ADD PRODUCT FORM ===== */
 .admin-addproduct-form {
-  position: sticky;
-  top: 0px;
   display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
+  align-items: start;
+  justify-content: center;
+  gap: 2rem;
   background: #fff;
   padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.06);
 }
 
+.inputsss{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.img{
+  width: 50px;
+  text-align: center;
+}
+
+.img>img{
+  height: 40px;
+}
+
+.upload-img{
+  height: 40px;
+}
+
 .admin-addproduct-form input[type="text"],
 .admin-addproduct-form input[type="number"] {
-  flex: 1 1 200px;
   padding: 0.8rem 1rem;
   border: 1px solid #d1d5db;
   border-radius: 8px;
@@ -156,4 +173,32 @@ td button:last-child {
 
 td button:last-child:hover {
   background: #1d4ed8;
+}
+
+.imagefile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 190px;
+  width: 200px;
+  border-radius: 10px;
+  border: 3px dashed rgb(107, 107, 107);
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.preview-img{
+  height: 160px;
+}
+
+.imagefile>input{
+  display: none;
+}
+
+.upload-img{
+  height: 50px;
+}
+
+.add-product-div{
+  display: flex;
 }
