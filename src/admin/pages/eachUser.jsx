@@ -91,7 +91,7 @@ export default function EachUser(){
                 {
                   v.cart.map((d,i)=>(
                     <div key={i} className="product-admin-order-details">
-                      <div className="img-div"><img  src={`/products/shoe-${d.id}.png`} alt="name" /></div>
+                      <div className="img-div"><img  src={d.img} alt="name" /></div>
                       <div className="admin-products">
                         <div>{d.name}</div>
                         <div>Price : {d.price}</div>

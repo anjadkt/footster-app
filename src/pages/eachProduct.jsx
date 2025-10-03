@@ -74,7 +74,7 @@ export default function EachProduct (){
      <div className="single-product-container-div">
       <div className="single-product-img-div">
         <div className="single-product-fav-img-div">
-          <img className="single-product-img" src={`/products/shoe-${product.id}.png`} alt="" />
+          <img className="single-product-img" src={product.img} alt="" />
           <div onClick={setFavorite} className="single-product-fav">
             {
               fav ? <img src="/icons/favorite.png"/> : <img src="/icons/favorite3.png"/> 

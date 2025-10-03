@@ -9,7 +9,7 @@ export default function CartItem({data,dispatch,index}){
       <h3>Delivery date: Tuesday, June 21</h3>
       <div className="product-details-container">
         <div onClick={()=>navigate(`/product/${data.id}`)} className="cart-img-div">
-          <img className="cart-product-img" src={`./products/shoe-${data.id}.png`} alt="product image" />
+          <img className="cart-product-img" src={data.img} alt="product image" />
         </div>
         <div className="product-details-div">
           <p>{data.name}</p>

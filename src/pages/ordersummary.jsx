@@ -123,7 +123,7 @@ export default function OrderSummary (){
               userObj.cart.map((v,i)=>(
                 <div key={i} className='order-summary-product'>
                   <div>
-                    <img className='order-summary-img' src={`./products/shoe-${v.id}.png`} alt="order-details" />
+                    <img className='order-summary-img' src={v.img} alt="order-details" />
                   </div>
                   <div className='details'>
                     <div>Colors : {v.color}</div>

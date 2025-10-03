@@ -26,481 +26,13 @@
     },
     {
       "role": "user",
-      "id": 1759138517873,
-      "status": "active",
-      "login": false,
-      "name": "jumana",
-      "email": "jumanafathimaep@gmail.com",
-      "password": "123456",
-      "cart": [],
-      "noti": [],
-      "saved": [],
-      "favorite": [
-        {
-          "id": 13,
-          "isFav": true,
-          "img":"",
-          "quantity": 1,
-          "rating": 10,
-          "name": "Urban Flex",
-          "color": 4,
-          "price": 3299
-        }
-      ],
-      "address": {
-        "name": "Jumana",
-        "number": 1212121212,
-        "pincode": 670000,
-        "city": "Kavanoor",
-        "adres": "Illikkal",
-        "state": "Kerala",
-        "country": "India",
-        "method": "COD",
-        "total": 8900
-      },
-      "orders": [
-        {
-          "orderId": 1759138655463,
-          "date": "9/29/2025, 3:07:35 PM",
-          "status": "Delivered",
-          "type": "COD",
-          "total": 8900,
-          "cart": [
-            {
-              "id": 13,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 10,
-              "name": "Urban Flex",
-              "color": 4,
-              "price": 3299
-            },
-            {
-              "id": 22,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 10,
-              "name": "Elite Loafer",
-              "color": 2,
-              "price": 4799
-            }
-          ],
-          "to": {
-            "name": "Jumana",
-            "number": 1212121212,
-            "pincode": 670000,
-            "adres": "Illikkal"
-          }
-        }
-      ]
-    },
-    {
-      "role": "user",
-      "id": 1759138690642,
-      "status": "active",
-      "login": false,
-      "name": "ansil",
-      "email": "ansil@gmail.com",
-      "password": "123456",
-      "cart": [],
-      "noti": [
-        {
-          "title": "Order Delivered",
-          "dis": "hello ansil, your order 1759138734641 has been Delivered successfully"
-        }
-      ],
-      "saved": [],
-      "favorite": [
-        {
-          "id": 3,
-          "isFav": true,
-          "quantity": 1,
-          "rating": 15,
-          "name": "Canyon Trail Pro",
-          "color": 5,
-          "price": 5499
-        },
-        {
-          "id": 2,
-          "isFav": true,
-          "quantity": 1,
-          "rating": 10,
-          "name": "Harbor Slip-On",
-          "color": 3,
-          "price": 1999
-        }
-      ],
-      "address": {
-        "name": "ansil",
-        "number": 97777726262,
-        "pincode": 679332,
-        "city": "Malappuram",
-        "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia",
-        "state": "Kerala",
-        "country": "India",
-        "method": "COD",
-        "total": 11100
-      },
-      "orders": [
-        {
-          "orderId": 1759138734641,
-          "date": "9/29/2025, 3:08:54 PM",
-          "status": "Delivered",
-          "type": "COD",
-          "total": 11100,
-          "cart": [
-            {
-              "id": 2,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 10,
-              "name": "Harbor Slip-On",
-              "color": 3,
-              "price": 1999
-            },
-            {
-              "id": 3,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 15,
-              "name": "Canyon Trail Pro",
-              "color": 5,
-              "price": 5499
-            },
-            {
-              "id": 4,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 20,
-              "name": "Metro Casuals",
-              "color": 6,
-              "price": 2599
-            }
-          ],
-          "to": {
-            "name": "ansil",
-            "number": 97777726262,
-            "pincode": 679332,
-            "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia"
-          }
-        }
-      ]
-    },
-    {
-      "role": "user",
-      "id": 1759138779866,
-      "status": "active",
-      "login": false,
-      "name": "adhersh",
-      "email": "adhershkr@gmail.com",
-      "password": "123456",
-      "cart": [
-        {
-          "id": 3,
-          "isFav": false,
-          "quantity": 1,
-          "rating": 15,
-          "name": "Canyon Trail Pro",
-          "color": 5,
-          "price": 5499
-        },
-        {
-          "id": 2,
-          "isFav": false,
-          "quantity": 1,
-          "rating": 10,
-          "name": "Harbor Slip-On",
-          "color": 3,
-          "price": 1999
-        }
-      ],
-      "noti": [],
-      "saved": [],
-      "favorite": [
-        {
-          "id": 2,
-          "isFav": true,
-          "quantity": 1,
-          "rating": 10,
-          "name": "Harbor Slip-On",
-          "color": 3,
-          "price": 1999
-        },
-        {
-          "id": 3,
-          "isFav": true,
-          "quantity": 1,
-          "rating": 15,
-          "name": "Canyon Trail Pro",
-          "color": 5,
-          "price": 5499
-        }
-      ],
-      "address": null,
-      "orders": []
-    },
-    {
-      "role": "user",
-      "id": 1759138833681,
-      "status": "active",
-      "login": false,
-      "name": "jithin ",
-      "email": "jithin@gmail.com",
-      "password": "123456",
-      "cart": [
-        {
-          "id": 4,
-          "isFav": false,
-          "quantity": 1,
-          "rating": 20,
-          "name": "Metro Casuals",
-          "color": 6,
-          "price": 2599
-        },
-        {
-          "id": 3,
-          "isFav": false,
-          "quantity": 1,
-          "rating": 15,
-          "name": "Canyon Trail Pro",
-          "color": 5,
-          "price": 5499
-        },
-        {
-          "id": 2,
-          "isFav": false,
-          "quantity": 1,
-          "rating": 10,
-          "name": "Harbor Slip-On",
-          "color": 3,
-          "price": 1999
-        }
-      ],
-      "noti": [],
-      "saved": [],
-      "favorite": [
-        {
-          "id": 2,
-          "isFav": true,
-          "quantity": 1,
-          "rating": 10,
-          "name": "Harbor Slip-On",
-          "color": 3,
-          "price": 1999
-        }
-      ],
-      "address": null,
-      "orders": []
-    },
-    {
-      "role": "user",
-      "id": 1759138888085,
-      "status": "active",
-      "login": false,
-      "name": "shiyas",
-      "email": "shiyas@gmail.com",
-      "password": "123456",
-      "cart": [],
-      "noti": [
-        {
-          "title": "Order Delivered",
-          "dis": "hello shiyas, your order 1759138929543 has been Delivered successfully"
-        }
-      ],
-      "saved": [],
-      "favorite": [],
-      "address": {
-        "name": "shiyas",
-        "number": 939393939,
-        "pincode": 679332,
-        "city": "Malappuram",
-        "adres": "kakkajakdjkajd",
-        "state": "Kerala",
-        "country": "India",
-        "method": "COD",
-        "total": 14700
-      },
-      "orders": [
-        {
-          "orderId": 1759138929543,
-          "date": "9/29/2025, 3:12:09 PM",
-          "status": "Delivered",
-          "type": "COD",
-          "total": 14700,
-          "cart": [
-            {
-              "id": 2,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 10,
-              "name": "Harbor Slip-On",
-              "color": 3,
-              "price": 1999
-            },
-            {
-              "id": 3,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 15,
-              "name": "Canyon Trail Pro",
-              "color": 5,
-              "price": 5499
-            },
-            {
-              "id": 6,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 30,
-              "name": "Retro Court",
-              "color": 2,
-              "price": 2299
-            },
-            {
-              "id": 7,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 35,
-              "name": "Vertex High-Top",
-              "color": 4,
-              "price": 3499
-            }
-          ],
-          "to": {
-            "name": "shiyas",
-            "number": 939393939,
-            "pincode": 679332,
-            "adres": "kakkajakdjkajd"
-          }
-        }
-      ]
-    },
-    {
-      "role": "user",
-      "id": 1759214467332,
-      "login": false,
-      "name": "kevin",
-      "email": "kevinff691@gmail.com",
-      "status": "active",
-      "password": "123456",
-      "cart": [],
-      "noti": [
-        {
-          "title": "Order Delivered",
-          "dis": "hello kevin, your order 1759214553803 has been Delivered successfully"
-        },
-        {
-          "title": "Order Delivered",
-          "dis": "hello kevin, your order 1759214553803 has been Delivered successfully"
-        },
-        {
-          "title": "Order Delivered",
-          "dis": "hello kevin, your order 1759214720327 has been Delivered successfully"
-        }
-      ],
-      "saved": [],
-      "favorite": [
-        {
-          "id": 7,
-          "isFav": true,
-          "quantity": 1,
-          "rating": 35,
-          "name": "Vertex High-Top",
-          "color": 4,
-          "price": 3499
-        }
-      ],
-      "address": {
-        "name": "kevin",
-        "number": 909282292,
-        "pincode": 60001,
-        "city": "chennai",
-        "adres": "chennai,str",
-        "state": "thamilnadu",
-        "country": "india",
-        "method": "COD",
-        "total": 2200
-      },
-      "orders": [
-        {
-          "orderId": 1759214553803,
-          "date": "9/30/2025, 12:12:33 PM",
-          "status": "Delivered",
-          "type": "COD",
-          "total": 3900,
-          "cart": [
-            {
-              "id": 7,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 35,
-              "name": "Vertex High-Top",
-              "color": 4,
-              "price": 3499
-            }
-          ],
-          "to": {
-            "name": "kevin",
-            "number": 909282292,
-            "pincode": 60001,
-            "adres": "chennai,str"
-          }
-        },
-        {
-          "orderId": 1759214720327,
-          "date": "9/30/2025, 12:15:20 PM",
-          "status": "Delivered",
-          "type": "COD",
-          "total": 2200,
-          "cart": [
-            {
-              "id": 2,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 10,
-              "name": "Harbor Slip-On",
-              "color": 3,
-              "price": 1999
-            }
-          ],
-          "to": {
-            "name": "kevin",
-            "number": 909282292,
-            "pincode": 60001,
-            "adres": "chennai,str"
-          }
-        }
-      ]
-    },
-    {
-      "role": "user",
-      "id": 1759294340758,
+      "id": 1759502062418,
       "login": false,
       "name": "anjad",
       "email": "anjad076@gmail.com",
       "status": "active",
       "password": "123456",
-      "cart": [
-        {
-          "id": 8,
-          "isFav": false,
-          "reviews": [],
-          "quantity": 1,
-          "rating": 40,
-          "name": "Glide Minimal",
-          "color": 3,
-          "price": 2799
-        },
-        {
-          "id": 7,
-          "isFav": false,
-          "reviews": [],
-          "quantity": 1,
-          "rating": 35,
-          "name": "Vertex High-Top",
-          "color": 4,
-          "price": 3499
-        }
-      ],
+      "cart": [],
       "noti": [],
       "saved": [],
       "favorite": [],
@@ -513,273 +45,79 @@
         "state": "Kerala",
         "country": "India",
         "method": "COD",
-        "total": 2200
+        "total": 7700
       },
       "orders": [
         {
-          "orderId": 1759294390357,
-          "date": "10/1/2025, 10:23:10 AM",
-          "status": "Delivered",
-          "type": "COD",
-          "total": 7000,
-          "cart": [
-            {
-              "id": 19,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 40,
-              "name": "Urban High-Top",
-              "color": 4,
-              "price": 3499
-            },
-            {
-              "id": 20,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 45,
-              "name": "Zen Minimal",
-              "color": 3,
-              "price": 2799
-            }
-          ],
-          "to": {
-            "name": "ANJAD KT",
-            "number": 9778175092,
-            "pincode": 679332,
-            "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia"
-          }
-        },
-        {
-          "orderId": 1759295404531,
-          "date": "10/1/2025, 10:40:04 AM",
-          "status": "Delivered",
-          "type": "COD",
-          "total": 5300,
-          "cart": [
-            {
-              "id": 10,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 30,
-              "name": "Luxe Loafer",
-              "color": 2,
-              "price": 4799
-            }
-          ],
-          "to": {
-            "name": "ANJAD KT",
-            "number": 9778175092,
-            "pincode": 679332,
-            "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia"
-          }
-        },
-        {
-          "orderId": 1759339511350,
-          "date": "10/1/2025, 10:55:11 PM",
-          "status": "Delivered",
-          "type": "COD",
-          "total": 3900,
-          "cart": [
-            {
-              "id": 7,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 35,
-              "name": "Vertex High-Top",
-              "color": 4,
-              "price": 3499
-            }
-          ],
-          "to": {
-            "name": "ANJAD KT",
-            "number": 9778175092,
-            "pincode": 679332,
-            "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia"
-          }
-        },
-        {
-          "orderId": 1759425034695,
-          "date": "10/2/2025, 10:40:34 PM",
-          "status": "Delivered",
-          "type": "COD",
-          "total": 2200,
-          "cart": [
-            {
-              "id": 2,
-              "isFav": false,
-              "reviews": [],
-              "quantity": 1,
-              "rating": 10,
-              "name": "Harbor Slip-On",
-              "color": 3,
-              "price": 1999
-            }
-          ],
-          "to": {
-            "name": "ANJAD KT",
-            "number": 9778175092,
-            "pincode": 679332,
-            "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia"
-          }
-        }
-      ]
-    },
-    {
-      "role": "user",
-      "id": 1759323582555,
-      "login": false,
-      "name": "najmunnisa",
-      "email": "najmunnisa@gmail.com",
-      "status": "active",
-      "password": "123456",
-      "cart": [],
-      "noti": [
-        {
-          "title": "Order Delivered",
-          "dis": "hello najmunnisa, your order 1759323668981 has been Delivered successfully"
-        }
-      ],
-      "saved": [],
-      "favorite": [
-        {
-          "id": 7,
-          "isFav": true,
-          "quantity": 1,
-          "rating": 35,
-          "name": "Vertex High-Top",
-          "color": 4,
-          "price": 3499
-        },
-        {
-          "id": 10,
-          "isFav": true,
-          "quantity": 1,
-          "rating": 30,
-          "name": "Luxe Loafer",
-          "color": 2,
-          "price": 4799
-        }
-      ],
-      "address": {
-        "name": "najmunnisa",
-        "number": 9605656530,
-        "pincode": 679332,
-        "city": "Malappuram",
-        "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia",
-        "state": "Kerala",
-        "country": "India",
-        "method": "COD",
-        "total": 9200
-      },
-      "orders": [
-        {
-          "orderId": 1759323668981,
-          "date": "10/1/2025, 6:31:08 PM",
-          "status": "Delivered",
-          "type": "COD",
-          "total": 9200,
-          "cart": [
-            {
-              "id": 7,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 35,
-              "name": "Vertex High-Top",
-              "color": 4,
-              "price": 3499
-            },
-            {
-              "id": 10,
-              "isFav": false,
-              "quantity": 1,
-              "rating": 30,
-              "name": "Luxe Loafer",
-              "color": 2,
-              "price": 4799
-            }
-          ],
-          "to": {
-            "name": "najmunnisa",
-            "number": 9605656530,
-            "pincode": 679332,
-            "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia"
-          }
-        }
-      ]
-    },
-    {
-      "role": "user",
-      "id": 1759334126940,
-      "login": false,
-      "name": "anshida",
-      "email": "anshida@gmail.com",
-      "status": "active",
-      "password": "123456",
-      "cart": [],
-      "noti": [
-        {
-          "title": "Hello anshida❤",
-          "dis": "Welcome anshida to the world of footwear, we hope you are happy to continue with us.."
-        }
-      ],
-      "saved": [],
-      "favorite": [],
-      "address": null,
-      "orders": []
-    },
-    {
-      "role": "user",
-      "id": 1759387942878,
-      "login": false,
-      "name": "ashmil",
-      "email": "ashmil@gmail.com",
-      "status": "active",
-      "password": "123456",
-      "cart": [],
-      "noti": [
-        {
-          "title": "Hello ashmil❤",
-          "dis": "Welcome ashmil to the world of footwear, we hope you are happy to continue with us.."
-        },
-        {
-          "title": "Order Placed",
-          "dis": "Your order 1759387985884 is Placed successfully.."
-        }
-      ],
-      "saved": [],
-      "favorite": [],
-      "address": {
-        "name": "ashmil",
-        "number": 939393939,
-        "pincode": 679332,
-        "city": "Malappuram",
-        "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia",
-        "state": "Kerala",
-        "country": "India",
-        "method": "COD",
-        "total": 3900
-      },
-      "orders": [
-        {
-          "orderId": 1759387985884,
-          "date": "10/2/2025, 12:23:05 PM",
+          "orderId": 1759502259515,
+          "date": "10/3/2025, 8:07:39 PM",
           "status": "Placed",
           "type": "COD",
-          "total": 3900,
+          "total": 8900,
           "cart": [
             {
-              "id": 7,
+              "id": 3,
               "isFav": false,
+              "reviews": [],
+              "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500269/shoe-49_m94v3p.png",
               "quantity": 1,
-              "rating": 35,
-              "name": "Vertex High-Top",
-              "color": 4,
-              "price": 3499
+              "rating": 15,
+              "name": "Canyon Trail Pro",
+              "color": 5,
+              "price": 5499
+            },
+            {
+              "id": 4,
+              "isFav": false,
+              "reviews": [],
+              "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500268/shoe-45_tzwmwh.png",
+              "quantity": 1,
+              "rating": 20,
+              "name": "Metro Casuals",
+              "color": 6,
+              "price": 2599
             }
           ],
           "to": {
-            "name": "ashmil",
-            "number": 939393939,
+            "name": "ANJAD KT",
+            "number": 9778175092,
+            "pincode": 679332,
+            "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia"
+          }
+        },
+        {
+          "orderId": 1759502393976,
+          "date": "10/3/2025, 8:09:53 PM",
+          "status": "Placed",
+          "type": "COD",
+          "total": 7700,
+          "cart": [
+            {
+              "id": 24,
+              "isFav": false,
+              "reviews": [],
+              "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500244/shoe-32_i7b5ke.png",
+              "quantity": 1,
+              "rating": 25,
+              "name": "GreenStride",
+              "color": 4,
+              "price": 2199
+            },
+            {
+              "id": 22,
+              "isFav": false,
+              "reviews": [],
+              "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500244/shoe-33_xjwsah.png",
+              "quantity": 1,
+              "rating": 10,
+              "name": "Elite Loafer",
+              "color": 2,
+              "price": 4799
+            }
+          ],
+          "to": {
+            "name": "ANJAD KT",
+            "number": 9778175092,
             "pincode": 679332,
             "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia"
           }
@@ -792,7 +130,7 @@
       "id": 1,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500269/shoe-47_u8flh7.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500269/shoe-47_u8flh7.png",
       "quantity": 1,
       "rating": 50,
       "name": "Atlas Runner",
@@ -803,7 +141,7 @@
       "id": 2,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500269/shoe-50_g6eeia.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500269/shoe-50_g6eeia.png",
       "quantity": 1,
       "rating": 10,
       "name": "Harbor Slip-On",
@@ -814,7 +152,7 @@
       "id": 3,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500269/shoe-49_m94v3p.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500269/shoe-49_m94v3p.png",
       "quantity": 1,
       "rating": 15,
       "name": "Canyon Trail Pro",
@@ -825,7 +163,7 @@
       "id": 4,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500268/shoe-45_tzwmwh.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500268/shoe-45_tzwmwh.png",
       "quantity": 1,
       "rating": 20,
       "name": "Metro Casuals",
@@ -836,7 +174,7 @@
       "id": 5,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500269/shoe-48_eblh5s.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500269/shoe-48_eblh5s.png",
       "quantity": 1,
       "rating": 25,
       "name": "Nimbus Knit",
@@ -847,7 +185,7 @@
       "id": 6,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500268/shoe-43_zqiyne.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500268/shoe-43_zqiyne.png",
       "quantity": 1,
       "rating": 30,
       "name": "Retro Court",
@@ -858,7 +196,7 @@
       "id": 7,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500268/shoe-44_r0hyp6.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500268/shoe-44_r0hyp6.png",
       "quantity": 1,
       "rating": 35,
       "name": "Vertex High-Top",
@@ -869,7 +207,7 @@
       "id": 8,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500268/shoe-46_icwy0w.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500268/shoe-46_icwy0w.png",
       "quantity": 1,
       "rating": 40,
       "name": "Glide Minimal",
@@ -880,7 +218,7 @@
       "id": 9,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500268/shoe-42_ztjf6l.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500268/shoe-42_ztjf6l.png",
       "quantity": 1,
       "rating": 45,
       "name": "Summit Hiker",
@@ -891,7 +229,7 @@
       "id": 10,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500245/shoe-41_ole7tu.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500245/shoe-41_ole7tu.png",
       "quantity": 1,
       "rating": 30,
       "name": "Luxe Loafer",
@@ -902,7 +240,7 @@
       "id": 11,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500245/shoe-40_edx3qb.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500245/shoe-40_edx3qb.png",
       "quantity": 1,
       "rating": 25,
       "name": "Pulse Trainer",
@@ -913,7 +251,7 @@
       "id": 12,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500245/shoe-39_qykhww.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500245/shoe-39_qykhww.png",
       "quantity": 1,
       "rating": 50,
       "name": "Eco Walker",
@@ -924,7 +262,7 @@
       "id": 13,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500244/shoe-34_wazjxy.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500244/shoe-34_wazjxy.png",
       "quantity": 1,
       "rating": 10,
       "name": "Urban Flex",
@@ -935,7 +273,7 @@
       "id": 14,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500244/shoe-36_cbkbpn.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500244/shoe-36_cbkbpn.png",
       "quantity": 1,
       "rating": 15,
       "name": "Ocean Glide",
@@ -946,7 +284,7 @@
       "id": 15,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500244/shoe-37_t3b66d.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500244/shoe-37_t3b66d.png",
       "quantity": 1,
       "rating": 20,
       "name": "Trail Explorer",
@@ -957,7 +295,7 @@
       "id": 16,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500243/shoe-30_s2tsqt.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500243/shoe-30_s2tsqt.png",
       "quantity": 1,
       "rating": 25,
       "name": "City Stroll",
@@ -968,7 +306,7 @@
       "id": 17,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500244/shoe-38_ioggzf.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500244/shoe-38_ioggzf.png",
       "quantity": 1,
       "rating": 30,
       "name": "Aero Knit",
@@ -979,7 +317,7 @@
       "id": 18,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500244/shoe-31_kjxnjm.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500244/shoe-31_kjxnjm.png",
       "quantity": 1,
       "rating": 35,
       "name": "Street Classic",
@@ -990,7 +328,7 @@
       "id": 19,
       "isFav": false,
       "reviews": [],
-      "img":"",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500245/shoe-41_ole7tu.png",
       "quantity": 1,
       "rating": 40,
       "name": "Urban High-Top",
@@ -1001,7 +339,7 @@
       "id": 20,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500244/shoe-35_lhf678.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500244/shoe-35_lhf678.png",
       "quantity": 1,
       "rating": 45,
       "name": "Zen Minimal",
@@ -1012,7 +350,7 @@
       "id": 21,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500243/shoe-26_rv9ihq.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500243/shoe-26_rv9ihq.png",
       "quantity": 1,
       "rating": 50,
       "name": "Peak Trekker",
@@ -1023,7 +361,7 @@
       "id": 22,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500244/shoe-33_xjwsah.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500244/shoe-33_xjwsah.png",
       "quantity": 1,
       "rating": 10,
       "name": "Elite Loafer",
@@ -1034,7 +372,7 @@
       "id": 23,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500243/shoe-28_ojj7hv.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500243/shoe-28_ojj7hv.png",
       "quantity": 1,
       "rating": 15,
       "name": "Core Trainer",
@@ -1045,7 +383,7 @@
       "id": 24,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500244/shoe-32_i7b5ke.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500244/shoe-32_i7b5ke.png",
       "quantity": 1,
       "rating": 25,
       "name": "GreenStride",
@@ -1056,7 +394,7 @@
       "id": 25,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500243/shoe-29_yiss8d.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500243/shoe-29_yiss8d.png",
       "quantity": 1,
       "rating": 30,
       "name": "Nike Air Zoom",
@@ -1067,7 +405,7 @@
       "id": 26,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500243/shoe-27_ikwfwv.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500243/shoe-27_ikwfwv.png",
       "quantity": 1,
       "rating": 20,
       "name": "Adidas Ultraboost",
@@ -1078,7 +416,7 @@
       "id": 27,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500214/shoe-22_q3ffck.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500214/shoe-22_q3ffck.png",
       "quantity": 1,
       "rating": 25,
       "name": "Puma Velocity",
@@ -1089,7 +427,7 @@
       "id": 28,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500214/shoe-9_kr2qgo.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500214/shoe-9_kr2qgo.png",
       "quantity": 1,
       "rating": 30,
       "name": "Reebok Floatride",
@@ -1100,7 +438,7 @@
       "id": 29,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500214/shoe-21_iox8nc.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500214/shoe-21_iox8nc.png",
       "quantity": 1,
       "rating": 20,
       "name": "Skechers Go Walk",
@@ -1111,7 +449,7 @@
       "id": 30,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500214/shoe-23_f2iggz.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500214/shoe-23_f2iggz.png",
       "quantity": 1,
       "rating": 25,
       "name": "New Balance",
@@ -1122,7 +460,7 @@
       "id": 31,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500214/shoe-11_ntgqg6.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500214/shoe-11_ntgqg6.png",
       "quantity": 1,
       "rating": 30,
       "name": "Asics Gel",
@@ -1133,7 +471,7 @@
       "id": 32,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500214/shoe-24_w3un8e.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500214/shoe-24_w3un8e.png",
       "quantity": 1,
       "rating": 20,
       "name": "Under Armour",
@@ -1144,7 +482,7 @@
       "id": 33,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500213/shoe-15_fr21fr.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500213/shoe-15_fr21fr.png",
       "quantity": 1,
       "rating": 25,
       "name": "Fila Disruptor",
@@ -1155,7 +493,7 @@
       "id": 34,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500213/shoe-18_oqxrox.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500213/shoe-18_oqxrox.png",
       "quantity": 1,
       "rating": 30,
       "name": "Converse Chuck",
@@ -1166,7 +504,7 @@
       "id": 35,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500212/shoe-14_qmls8t.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500212/shoe-14_qmls8t.png",
       "quantity": 1,
       "rating": 20,
       "name": "Vans Old Skool",
@@ -1177,7 +515,7 @@
       "id": 36,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500212/shoe-5_pyj2xo.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500212/shoe-5_pyj2xo.png",
       "quantity": 1,
       "rating": 25,
       "name": "Woodland Trekker",
@@ -1188,7 +526,7 @@
       "id": 37,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500214/shoe-20_z2cfgz.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500214/shoe-20_z2cfgz.png",
       "quantity": 1,
       "rating": 30,
       "name": "Bata Power Run",
@@ -1199,7 +537,7 @@
       "id": 38,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500212/shoe-13_grx7yn.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500212/shoe-13_grx7yn.png",
       "quantity": 1,
       "rating": 20,
       "name": "HRX Sprint Pro",
@@ -1210,7 +548,7 @@
       "id": 39,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500213/shoe-10_krd5zw.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500213/shoe-10_krd5zw.png",
       "quantity": 1,
       "rating": 25,
       "name": "Red Tape Sports",
@@ -1221,7 +559,7 @@
       "id": 40,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500213/shoe-4_ic35df.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500213/shoe-4_ic35df.png",
       "quantity": 1,
       "rating": 30,
       "name": "Clarks Step",
@@ -1232,7 +570,7 @@
       "id": 41,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500214/shoe-19_kajvbv.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500214/shoe-19_kajvbv.png",
       "quantity": 1,
       "rating": 20,
       "name": "Crocs LiteRide",
@@ -1243,7 +581,7 @@
       "id": 42,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500213/shoe-17_rpkihf.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500213/shoe-17_rpkihf.png",
       "quantity": 1,
       "rating": 25,
       "name": "Hush Puppies Active",
@@ -1254,7 +592,7 @@
       "id": 43,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500213/shoe-6_astyfl.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500213/shoe-6_astyfl.png",
       "quantity": 1,
       "rating": 30,
       "name": "Sparx Street Flex",
@@ -1265,7 +603,7 @@
       "id": 44,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500213/shoe-16_mtgrir.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500213/shoe-16_mtgrir.png",
       "quantity": 1,
       "rating": 20,
       "name": "Lee Cooper Urban Walk",
@@ -1276,7 +614,7 @@
       "id": 45,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500212/shoe-8_w98nyy.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500212/shoe-8_w98nyy.png",
       "quantity": 1,
       "rating": 25,
       "name": "Lotto Speed Ride",
@@ -1287,7 +625,7 @@
       "id": 46,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500213/shoe-7_fptvnt.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500213/shoe-7_fptvnt.png",
       "quantity": 1,
       "rating": 30,
       "name": "Decathlon Kalenji",
@@ -1298,7 +636,7 @@
       "id": 47,
       "isFav": false,
       "reviews": [],
-      "img":"",
+      "img": "",
       "quantity": 1,
       "rating": 20,
       "name": "Campus Max Air",
@@ -1309,7 +647,7 @@
       "id": 48,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500212/shoe-2_ftuwjg.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500212/shoe-2_ftuwjg.png",
       "quantity": 1,
       "rating": 25,
       "name": "Action Campus Runner",
@@ -1320,7 +658,7 @@
       "id": 49,
       "isFav": false,
       "reviews": [],
-      "img":"https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500212/shoe-1_n1chzz.png",
+      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500212/shoe-1_n1chzz.png",
       "quantity": 1,
       "rating": 0,
       "name": "nike sweeden",

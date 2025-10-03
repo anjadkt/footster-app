@@ -22,7 +22,7 @@ export default function OrderItems ({orderDetails}){
             <div className="ordered-items-container" key={i}>
               <div>
                 <div className="ordered-item-img">
-                  <img  src={`./products/shoe-${v.id}.png`} alt="" />
+                  <img  src={v.img} alt="" />
                 </div>
                 <div className="ordered-item-details">
                   <h4>{v.name}</h4>
