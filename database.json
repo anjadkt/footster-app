@@ -478,34 +478,31 @@
       "email": "anjad076@gmail.com",
       "status": "active",
       "password": "123456",
-      "cart": [],
-      "noti": [
+      "cart": [
         {
-          "title": "Welcome",
-          "dis": "hello anjad welcome home"
-        }
-      ],
-      "saved": [],
-      "favorite": [
-        {
-          "id": 19,
-          "isFav": true,
+          "id": 8,
+          "isFav": false,
+          "reviews": [],
           "quantity": 1,
           "rating": 40,
-          "name": "Urban High-Top",
-          "color": 4,
-          "price": 3499
-        },
-        {
-          "id": 20,
-          "isFav": true,
-          "quantity": 1,
-          "rating": 45,
-          "name": "Zen Minimal",
+          "name": "Glide Minimal",
           "color": 3,
           "price": 2799
+        },
+        {
+          "id": 7,
+          "isFav": false,
+          "reviews": [],
+          "quantity": 1,
+          "rating": 35,
+          "name": "Vertex High-Top",
+          "color": 4,
+          "price": 3499
         }
       ],
+      "noti": [],
+      "saved": [],
+      "favorite": [],
       "address": {
         "name": "ANJAD KT",
         "number": 9778175092,
@@ -515,7 +512,7 @@
         "state": "Kerala",
         "country": "India",
         "method": "COD",
-        "total": 3900
+        "total": 2200
       },
       "orders": [
         {
@@ -590,6 +587,31 @@
               "name": "Vertex High-Top",
               "color": 4,
               "price": 3499
+            }
+          ],
+          "to": {
+            "name": "ANJAD KT",
+            "number": 9778175092,
+            "pincode": 679332,
+            "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia"
+          }
+        },
+        {
+          "orderId": 1759425034695,
+          "date": "10/2/2025, 10:40:34 PM",
+          "status": "Delivered",
+          "type": "COD",
+          "total": 2200,
+          "cart": [
+            {
+              "id": 2,
+              "isFav": false,
+              "reviews": [],
+              "quantity": 1,
+              "rating": 10,
+              "name": "Harbor Slip-On",
+              "color": 3,
+              "price": 1999
             }
           ],
           "to": {
@@ -768,7 +790,7 @@
     {
       "id": 1,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 50,
       "name": "Atlas Runner",
@@ -778,7 +800,7 @@
     {
       "id": 2,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 10,
       "name": "Harbor Slip-On",
@@ -788,7 +810,7 @@
     {
       "id": 3,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 15,
       "name": "Canyon Trail Pro",
@@ -798,7 +820,7 @@
     {
       "id": 4,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 20,
       "name": "Metro Casuals",
@@ -808,7 +830,7 @@
     {
       "id": 5,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 25,
       "name": "Nimbus Knit",
@@ -818,7 +840,7 @@
     {
       "id": 6,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 30,
       "name": "Retro Court",
@@ -828,7 +850,7 @@
     {
       "id": 7,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 35,
       "name": "Vertex High-Top",
@@ -838,7 +860,7 @@
     {
       "id": 8,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 40,
       "name": "Glide Minimal",
@@ -848,7 +870,7 @@
     {
       "id": 9,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 45,
       "name": "Summit Hiker",
@@ -858,7 +880,7 @@
     {
       "id": 10,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 30,
       "name": "Luxe Loafer",
@@ -868,7 +890,7 @@
     {
       "id": 11,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 25,
       "name": "Pulse Trainer",
@@ -878,7 +900,7 @@
     {
       "id": 12,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 50,
       "name": "Eco Walker",
@@ -888,7 +910,7 @@
     {
       "id": 13,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 10,
       "name": "Urban Flex",
@@ -898,7 +920,7 @@
     {
       "id": 14,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 15,
       "name": "Ocean Glide",
@@ -908,7 +930,7 @@
     {
       "id": 15,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 20,
       "name": "Trail Explorer",
@@ -918,7 +940,7 @@
     {
       "id": 16,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 25,
       "name": "City Stroll",
@@ -928,7 +950,7 @@
     {
       "id": 17,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 30,
       "name": "Aero Knit",
@@ -938,7 +960,7 @@
     {
       "id": 18,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 35,
       "name": "Street Classic",
@@ -948,7 +970,7 @@
     {
       "id": 19,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 40,
       "name": "Urban High-Top",
@@ -958,7 +980,7 @@
     {
       "id": 20,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 45,
       "name": "Zen Minimal",
@@ -968,7 +990,7 @@
     {
       "id": 21,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 50,
       "name": "Peak Trekker",
@@ -978,7 +1000,7 @@
     {
       "id": 22,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 10,
       "name": "Elite Loafer",
@@ -988,7 +1010,7 @@
     {
       "id": 23,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 15,
       "name": "Core Trainer",
@@ -998,7 +1020,7 @@
     {
       "id": 24,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 25,
       "name": "GreenStride",
@@ -1008,7 +1030,7 @@
     {
       "id": 25,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 30,
       "name": "Nike Air Zoom",
@@ -1018,7 +1040,7 @@
     {
       "id": 26,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 20,
       "name": "Adidas Ultraboost",
@@ -1028,7 +1050,7 @@
     {
       "id": 27,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 25,
       "name": "Puma Velocity",
@@ -1038,7 +1060,7 @@
     {
       "id": 28,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 30,
       "name": "Reebok Floatride",
@@ -1048,7 +1070,7 @@
     {
       "id": 29,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 20,
       "name": "Skechers Go Walk",
@@ -1058,7 +1080,7 @@
     {
       "id": 30,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 25,
       "name": "New Balance",
@@ -1068,7 +1090,7 @@
     {
       "id": 31,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 30,
       "name": "Asics Gel",
@@ -1078,7 +1100,7 @@
     {
       "id": 32,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 20,
       "name": "Under Armour",
@@ -1088,7 +1110,7 @@
     {
       "id": 33,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 25,
       "name": "Fila Disruptor",
@@ -1098,7 +1120,7 @@
     {
       "id": 34,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 30,
       "name": "Converse Chuck",
@@ -1108,7 +1130,7 @@
     {
       "id": 35,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 20,
       "name": "Vans Old Skool",
@@ -1118,7 +1140,7 @@
     {
       "id": 36,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 25,
       "name": "Woodland Trekker",
@@ -1128,7 +1150,7 @@
     {
       "id": 37,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 30,
       "name": "Bata Power Run",
@@ -1138,7 +1160,7 @@
     {
       "id": 38,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 20,
       "name": "HRX Sprint Pro",
@@ -1148,7 +1170,7 @@
     {
       "id": 39,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 25,
       "name": "Red Tape Sports",
@@ -1158,7 +1180,7 @@
     {
       "id": 40,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 30,
       "name": "Clarks Step",
@@ -1168,7 +1190,7 @@
     {
       "id": 41,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 20,
       "name": "Crocs LiteRide",
@@ -1178,7 +1200,7 @@
     {
       "id": 42,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 25,
       "name": "Hush Puppies Active",
@@ -1188,7 +1210,7 @@
     {
       "id": 43,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 30,
       "name": "Sparx Street Flex",
@@ -1198,7 +1220,7 @@
     {
       "id": 44,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 20,
       "name": "Lee Cooper Urban Walk",
@@ -1208,7 +1230,7 @@
     {
       "id": 45,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 25,
       "name": "Lotto Speed Ride",
@@ -1218,7 +1240,7 @@
     {
       "id": 46,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 30,
       "name": "Decathlon Kalenji",
@@ -1228,7 +1250,7 @@
     {
       "id": 47,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 20,
       "name": "Campus Max Air",
@@ -1238,7 +1260,7 @@
     {
       "id": 48,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 25,
       "name": "Action Campus Runner",
@@ -1248,7 +1270,7 @@
     {
       "id": 49,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 0,
       "name": "nike sweeden",
@@ -1258,7 +1280,7 @@
     {
       "id": 50,
       "isFav": false,
-      "reviews":[],
+      "reviews": [],
       "quantity": 1,
       "rating": 0,
       "name": "nike lawo",

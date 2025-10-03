@@ -253,6 +253,7 @@ export default function Login (){
       </div>
       <img className='login-img' src="./loginpage.png" alt="login now" />
     </div>
+    <ToastContainer autoClose={1000}/>
     </>
   )
 }

@@ -3,6 +3,7 @@ import SideBar from "../components/sidebar"
 import '../styles/dashboard.css'
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import DoughnutChart from "../components/chart";
 
 export default function Dashboard(){
   const [data,setData] = useState({});
@@ -85,6 +86,10 @@ export default function Dashboard(){
         </div>
         <div></div>
       </div>
+     </div>
+     <div className="dashboard-all-chart-container">
+      <h2>Dashboard Summary</h2>
+     <DoughnutChart details={data} />
      </div>
     </>
   )
