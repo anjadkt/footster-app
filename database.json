@@ -32,21 +32,21 @@
       "email": "anjad076@gmail.com",
       "status": "active",
       "password": "123456",
-      "cart": [
+      "cart": [],
+      "noti": [],
+      "saved": [
         {
-          "id": 8,
+          "id": 15,
           "isFav": false,
           "reviews": [],
-          "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500268/shoe-46_icwy0w.png",
+          "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500244/shoe-37_t3b66d.png",
           "quantity": 1,
-          "rating": 40,
-          "name": "Glide Minimal",
-          "color": 3,
-          "price": 2799
+          "rating": 20,
+          "name": "Trail Explorer",
+          "color": 5,
+          "price": 5499
         }
       ],
-      "noti": [],
-      "saved": [],
       "favorite": [
         {
           "id": 8,
@@ -69,13 +69,13 @@
         "state": "Kerala",
         "country": "India",
         "method": "COD",
-        "total": 7700
+        "total": 3100
       },
       "orders": [
         {
           "orderId": 1759502259515,
           "date": "10/3/2025, 8:07:39 PM",
-          "status": "Placed",
+          "status": "Shipped",
           "type": "COD",
           "total": 8900,
           "cart": [
@@ -112,7 +112,7 @@
         {
           "orderId": 1759502393976,
           "date": "10/3/2025, 8:09:53 PM",
-          "status": "Placed",
+          "status": "Shipped",
           "type": "COD",
           "total": 7700,
           "cart": [
@@ -137,6 +137,32 @@
               "name": "Elite Loafer",
               "color": 2,
               "price": 4799
+            }
+          ],
+          "to": {
+            "name": "ANJAD KT",
+            "number": 9778175092,
+            "pincode": 679332,
+            "adres": "karuvathodika(h),chokkad,nilambur\nmalappuram,kerala\nindia"
+          }
+        },
+        {
+          "orderId": 1759510462750,
+          "date": "10/3/2025, 10:24:22 PM",
+          "status": "Shipped",
+          "type": "COD",
+          "total": 3100,
+          "cart": [
+            {
+              "id": 8,
+              "isFav": false,
+              "reviews": [],
+              "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759500268/shoe-46_icwy0w.png",
+              "quantity": 1,
+              "rating": 40,
+              "name": "Glide Minimal",
+              "color": 3,
+              "price": 2799
             }
           ],
           "to": {
