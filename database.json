@@ -813,17 +813,6 @@
       "price": "5999"
     },
     {
-      "id": 51,
-      "isFav": false,
-      "quantity": 1,
-      "category":"sneakers",
-      "rating": 0,
-      "name": "puma sneakers",
-      "color": "2",
-      "price": "2999",
-      "img": "https://res.cloudinary.com/dcsmtagf7/image/upload/v1759510204/o783r8zaolmsc9izimky.png"
-    },
-    {
       "id": 52,
       "isFav": false,
       "quantity": 1,

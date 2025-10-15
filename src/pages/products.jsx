@@ -5,11 +5,21 @@ import Product from "../components/product"
 import Title from '../components/title'
 
 export default function Products(){
-  const [products] = useFetch('http://localhost:5000/products?_page=1&_limit=24');
+  const [products] = useFetch('http://localhost:5000/products');
   return(
     <>
      <Header />
      <main>
+      <div className='category-selectors'>
+        <button>All</button>
+        <button>casuals</button>
+        <button>sports</button>
+        <button>indoor</button>
+        <button>loafers</button>
+        <button>boots</button>
+        <button>sandels</button>
+        <button>sneakers</button>
+      </div>
       <div className='all-div'>
         <Title title={"All products"}/>
         <hr />
@@ -20,15 +30,6 @@ export default function Products(){
           ))
           }
         </div>
-        <Title title={"Branded products"} />
-        <hr />
-         <div className="all-products-container-div">
-          { products &&
-          products.map((e,i)=>(
-            <Product key={i} data={e} />
-          ))
-          }
-         </div>
       </div>
      </main>
     </>
