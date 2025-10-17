@@ -38,7 +38,10 @@ export default function Header (){
           <div><Link className='nav-links' to='/products'>Products</Link></div>
           <div 
           className='nav-links rel-drop' 
-          onClick={()=>setDrop(!drop)}>
+          onClick={()=>{
+            setDrop(!drop)
+            navigate('/products')
+          }}>
             Catagory 
             <img style={{transform : drop ? "rotate(-180deg)" : "rotate(0deg)",color:"green",transition: "transform 0.3s ease"}} className='downarrow' src="/icons/downarrow.png" />
             {drop && <Dropdown/>}
