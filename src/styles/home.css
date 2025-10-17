@@ -382,7 +382,7 @@ nav>div,.buttons-container>div{
 .category-selectors{
   display: flex;
   position: sticky;
-  z-index: 20;
+  z-index: 9;
   top: 72px;
   background-color: white;
   margin-top: 80px;
@@ -393,17 +393,23 @@ nav>div,.buttons-container>div{
   padding-bottom: 15px;
 }
 
-.category-selectors>button{
+.category-selectors button{
   border: 1px solid rgb(145, 145, 145);
   padding: 5px 20px;
   padding-left: 10px;
   border-radius: 5px;
   background-color: white;
-  font-weight: 500;
+  font-size: 16px;
+  color: rgb(100, 100, 100);
   cursor: pointer;
 }
 
-.category-selectors>button:active{
+.category-selectors button.active{
+  background-color: black;
+  color: white;
+}
+
+.category-selectors button:focus{
   background-color: black;
   color: white;
 }
