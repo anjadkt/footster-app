@@ -44,10 +44,14 @@ export default function EachUser(){
       title : e.target[0].value,
       dis : e.target[1].value
     });
-    axios.put(`https://footster-app.onrender.com/users/${id}`,{
+    try{
+      axios.put(`https://footster-app.onrender.com/users/${id}`,{
       ...user,
       noti
     })
+    }catch(err){
+      console.log(err.message);
+    }
 
   }
 
