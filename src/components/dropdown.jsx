@@ -31,7 +31,7 @@ export function UserDrop(){
   return(
     <>
      <div className="user-drop-div">
-       <div>
+       <div onClick={()=> navigate('/profile')}>
         <img  src="/icons/profile.png" alt="profile" />
         My Profile
         </div>

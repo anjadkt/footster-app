@@ -20,6 +20,7 @@ import EachUser from './admin/pages/eachUser'
 import AdminOrders from './admin/pages/orders'
 import Notification from './pages/notifications'
 import EachProduct from './pages/eachProduct'
+import Profile from './pages/profile'
 
 function App() {
 
@@ -38,6 +39,7 @@ function App() {
       <Route path={'/confirm'} element={<ProtectedRoute><OrderSec/></ProtectedRoute>} />
       <Route path={'/orders'} element ={<ProtectedRoute><Orders/></ProtectedRoute>} />
       <Route path={'/notifications'} element ={<ProtectedRoute><Notification/></ProtectedRoute>} />
+       <Route path={'/profile'} element ={<ProtectedRoute><Profile/></ProtectedRoute>} />
       <Route path={'/forgot'} element = {<Forgot/>} />
       <Route path={'/dashboard'}  element ={<ProtectedRoute role="admin"><Dashboard/></ProtectedRoute>}/>
       <Route path={'/allproducts'} element ={<ProtectedRoute role="admin"><AllProducts/></ProtectedRoute>} />
