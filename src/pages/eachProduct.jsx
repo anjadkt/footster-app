@@ -3,7 +3,7 @@ import Header from "../components/header";
 import { useEffect, useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
 import axios from "axios";
-import '../styles/EachProduct.css'
+import '../styles/eachProduct.css'
 
 export default function EachProduct (){
   const {id} = useParams();
