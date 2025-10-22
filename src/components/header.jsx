@@ -18,7 +18,7 @@ export default function Header (){
 
  async function listProducts(txt){
     const text = txt.value.toLowerCase();
-    const {data} = await axios.get('http://localhost:5000/products');
+    const {data} = await axios.get('https://footster-app.onrender.com/products');
     setProducts(data.filter(v=>{
       const name = v.name.toLowerCase();
       return name.includes(text);

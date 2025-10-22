@@ -24,7 +24,7 @@ export function Register(){
     console.log(email)
 
     try{
-      const {data} = await axios.get(`http://localhost:5000/users?email=${email}`);
+      const {data} = await axios.get(`https://footster-app.onrender.com/users?email=${email}`);
       if(data.length>0){
         setAlready("User already Exist");
         return ;
@@ -43,7 +43,7 @@ export function Register(){
       }
     }
     if(isError){
-      axios.post('http://localhost:5000/users',{
+      axios.post('https://footster-app.onrender.com/users',{
         role : "user",
         id : Date.now(),
         login : false,
@@ -155,7 +155,7 @@ export default function Login (){
 
   async function checkUser (e){
     e.preventDefault();
-    const admin = await axios.get('http://localhost:5000/admin');
+    const admin = await axios.get('https://footster-app.onrender.com/admin');
     const adminData = admin.data[0];
 
       if(adminData.email === inputElem.current.email.value && adminData.password === inputElem.current.password.value ){
@@ -167,7 +167,7 @@ export default function Login (){
     
     const obj = {}
     try{
-      const res = await axios.get(`http://localhost:5000/users?email=${inputElem.current.email.value}`);
+      const res = await axios.get(`https://footster-app.onrender.com/users?email=${inputElem.current.email.value}`);
       const data = res.data[0] || [] ;
 
       if(data.status == "blocked"){
@@ -197,7 +197,7 @@ export default function Login (){
      const email = inputElem.current.email.value;
      async function checkEmail() {
         try{
-          const {data} = await axios.get(`http://localhost:5000/users?email=${email}`);
+          const {data} = await axios.get(`https://footster-app.onrender.com/users?email=${email}`);
           if(data.length>0){
             sessionStorage.setItem('user',JSON.stringify(data[0]));
             navigate('/forgot');

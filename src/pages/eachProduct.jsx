@@ -13,7 +13,7 @@ export default function EachProduct (){
   
   useEffect(()=>{
     async function takeProduct (){
-      const {data} = await axios.get(`http://localhost:5000/products/${id}`);
+      const {data} = await axios.get(`https://footster-app.onrender.com/products/${id}`);
       setProduct(data);
 
       const user = JSON.parse(localStorage.getItem('user'));

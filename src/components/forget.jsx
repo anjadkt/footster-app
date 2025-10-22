@@ -25,7 +25,7 @@ export default function Forgot(){
       }
     }
     if(isError){
-      axios.put(`http://localhost:5000/users/${userObj.id}`,{...userObj,password : inputElem.current.newPass.value});
+      axios.put(`https://footster-app.onrender.com/users/${userObj.id}`,{...userObj,password : inputElem.current.newPass.value});
       sessionStorage.clear();
       toast.success("password changed")
       navigate('/login')

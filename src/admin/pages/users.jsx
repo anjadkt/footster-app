@@ -9,7 +9,7 @@ export default function Users (){
   const [users,setUsers] = useState([]);
   const navigate = useNavigate();
   async function  fetchData() {
-    const {data} = await axios.get('http://localhost:5000/users');
+    const {data} = await axios.get('https://footster-app.onrender.com/users');
     data.shift();
     setUsers(data);
   }

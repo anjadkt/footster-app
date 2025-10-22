@@ -10,8 +10,8 @@ export default function Dashboard(){
   const navigate = useNavigate();
 
   async function takeData() {
-    const products = await axios.get('http://localhost:5000/products');
-    const users = await axios.get('http://localhost:5000/users');
+    const products = await axios.get('https://footster-app.onrender.com/products');
+    const users = await axios.get('https://footster-app.onrender.com/users');
 
     const calOrders = () =>{
       let orderCount = 0;

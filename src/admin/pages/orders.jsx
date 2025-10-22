@@ -7,7 +7,7 @@ export default function AdminOrders(){
   const [allUser,setAlluser] = useState([]);
 
   async function fetchData(){
-    const {data} = await axios.get('http://localhost:5000/users');
+    const {data} = await axios.get('https://footster-app.onrender.com/users');
     data.shift();
     setAlluser(data);
   }
@@ -25,7 +25,7 @@ export default function AdminOrders(){
       title : `Order ${orderStatus}`,
       dis :`hello ${user.name}, your order ${user.orders[i].orderId} has been ${orderStatus} successfully`
     });
-    axios.put(`http://localhost:5000/users/${user.id}`,{
+    axios.put(`https://footster-app.onrender.com/users/${user.id}`,{
       ...user,
       orders,
       noti

@@ -8,12 +8,12 @@ export default function EachUser(){
   const [user,setUser] = useState({});
   const {id} = useParams();
   async function fetchUser() {
-    const {data} = await axios.get(`http://localhost:5000/users/${id}`);
+    const {data} = await axios.get(`https://footster-app.onrender.com/users/${id}`);
     setUser(data);
   }
 
   function blockUser(){
-   axios.put(`http://localhost:5000/users/${id}`,{
+   axios.put(`https://footster-app.onrender.com/users/${id}`,{
       ...user,
       status : user.status == "active"? "blocked" : "active"
     });
@@ -30,7 +30,7 @@ export default function EachUser(){
       title : `Order ${orderStatus}`,
       dis :`hello ${user.name}, your order ${user.orders[i].orderId} has been ${orderStatus} successfully`
     });
-    axios.put(`http://localhost:5000/users/${id}`,{
+    axios.put(`https://footster-app.onrender.com/users/${id}`,{
       ...user,
       orders,
       noti
@@ -44,7 +44,7 @@ export default function EachUser(){
       title : e.target[0].value,
       dis : e.target[1].value
     });
-    axios.put(`http://localhost:5000/users/${id}`,{
+    axios.put(`https://footster-app.onrender.com/users/${id}`,{
       ...user,
       noti
     })

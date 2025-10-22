@@ -18,13 +18,13 @@ export default function AllProducts (){
   })
 
   async function setData(){
-    const {data} = await axios.get(' http://localhost:5000/products');
+    const {data} = await axios.get(' https://footster-app.onrender.com/products');
     setProducts(data);
   }
 
   function addProduct(e){
     if(inputElem.current.add.value == "Update Product"){
-      axios.put(`http://localhost:5000/products/${product.id}`,{
+      axios.put(`https://footster-app.onrender.com/products/${product.id}`,{
         ...product,
         name: e.target[1].value ,
         color: e.target[2].value,
@@ -33,7 +33,7 @@ export default function AllProducts (){
       return;
     }
     const {lastId} = products.pop();
-    axios.post('http://localhost:5000/products',{
+    axios.post('https://footster-app.onrender.com/products',{
       id: lastId+1,
       isFav: false,
       quantity: 1,
@@ -47,12 +47,12 @@ export default function AllProducts (){
   }
 
   function removeProduct(id){
-    axios.delete(`http://localhost:5000/products/${id}`);
+    axios.delete(`https://footster-app.onrender.com/products/${id}`);
     setData();
   }
 
   async function editProduct(id){
-    const {data} = await axios.get(`http://localhost:5000/products/${id}`);
+    const {data} = await axios.get(`https://footster-app.onrender.com/products/${id}`);
     inputElem.current.name.value = data.name
     inputElem.current.color.value = data.color
     inputElem.current.price.value = data.price

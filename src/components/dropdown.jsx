@@ -22,9 +22,9 @@ export function UserDrop(){
   const user = JSON.parse(localStorage.getItem('user'));
   async function postJson(){
     const userObj = JSON.parse(localStorage.getItem('user'));
-    const {data}  = await axios.get(` http://localhost:5000/users?id=${userObj.id}`);
+    const {data}  = await axios.get(` https://footster-app.onrender.com/users?id=${userObj.id}`);
     const updateUser = {...userObj,email : data[0].email,password : data[0].password,login : false}
-    axios.put(`http://localhost:5000/users/${userObj.id}`,updateUser);
+    axios.put(`https://footster-app.onrender.com/users/${userObj.id}`,updateUser);
     localStorage.clear();
     navigate('/');
   }
